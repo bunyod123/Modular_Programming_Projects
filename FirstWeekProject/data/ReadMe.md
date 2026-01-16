@@ -4,4 +4,3 @@
 
 # preprocessed data da ishlov berilgan data mavjud
 
-#
