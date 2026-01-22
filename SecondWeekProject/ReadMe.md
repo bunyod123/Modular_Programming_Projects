@@ -3,7 +3,7 @@
 # Bu datasetda ishlatilgan kalit sozlar royxati:
 
 
-id:ID
+id ------- ID
 
 battery_power ------ Total energy a battery can store in one time measured in mAh
 
@@ -44,3 +44,10 @@ three_g ------- Has 3G or not
 touch_screen ------- Has touch screen or not
 
 wifi --------- Has wifi or not
+
+price_range ------- This is the target variable with value of:
+
+0 (low cost)
+1 (medium cost)
+2 (high cost)
+3 (very high cost)
