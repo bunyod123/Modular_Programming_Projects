@@ -3,7 +3,7 @@ import sys
 
 
 # src file linkini olish
-path = sys.path.append(r"C:\Users\bunyo\oneDrive\desktop\AI_Course\ModularProgramProjects\SecondWeekProject")
+sys.path.append(r"C:\Users\bunyo\oneDrive\desktop\AI_Course\ModularProgramProjects\SecondWeekProject")
 
 from src.logger import get_logger
 
