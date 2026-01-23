@@ -1,0 +1,38 @@
+2026-01-23 15:56:35,912 - data_preprocessing - INFO - Data Preprocessing boshlandi: (2000, 21)
+2026-01-23 15:56:35,924 - data_preprocessing - ERROR - Xatolik yuz berdi at least one array or dtype is required
+2026-01-23 18:21:29,234 - data_preprocessing - INFO - Data Preprocessing boshlandi: (2000, 21)
+2026-01-23 18:21:29,245 - data_preprocessing - ERROR - Xatolik yuz berdi at least one array or dtype is required
+2026-01-23 18:22:50,901 - data_preprocessing - INFO - Data Preprocessing boshlandi: (2000, 21)
+2026-01-23 18:22:50,908 - data_preprocessing - ERROR - Xatolik yuz berdi at least one array or dtype is required
+2026-01-23 18:24:46,387 - data_preprocessing - INFO - Data Preprocessing boshlandi: (2000, 21)
+2026-01-23 18:24:46,394 - data_preprocessing - ERROR - Xatolik yuz berdi at least one array or dtype is required
+2026-01-23 18:30:52,613 - data_preprocessing - INFO - Data Preprocessing boshlandi: (2000, 21)
+2026-01-23 18:30:52,620 - data_preprocessing - ERROR - Xatolik yuz berdi at least one array or dtype is required
+2026-01-23 18:34:13,926 - data_preprocessing - INFO - Data Preprocessing boshlandi: (2000, 21)
+2026-01-23 18:34:13,932 - data_preprocessing - ERROR - Xatolik yuz berdi at least one array or dtype is required
+2026-01-23 18:37:39,245 - data_preprocessing - INFO - Data Preprocessing boshlandi: (2000, 21)
+2026-01-23 18:37:39,251 - data_preprocessing - INFO - Nan qiymatlar toldirildi
+2026-01-23 18:37:39,253 - data_preprocessing - INFO - Log transforming qilindi
+2026-01-23 18:37:39,306 - data_preprocessing - INFO - Scaling qilindi
+2026-01-23 18:38:43,624 - data_preprocessing - INFO - Data Preprocessing boshlandi: (2000, 21)
+2026-01-23 18:38:43,631 - data_preprocessing - INFO - Nan qiymatlar toldirildi
+2026-01-23 18:38:43,633 - data_preprocessing - INFO - Log transforming qilindi
+2026-01-23 18:38:43,636 - data_preprocessing - INFO - Scaling qilindi
+2026-01-23 18:43:33,801 - data_preprocessing - INFO - Data Preprocessing boshlandi: (2000, 21)
+2026-01-23 18:43:33,807 - data_preprocessing - INFO - Nan qiymatlar toldirildi
+2026-01-23 18:43:33,809 - data_preprocessing - INFO - Log transforming qilindi
+2026-01-23 18:43:33,813 - data_preprocessing - INFO - Scaling qilindi
+2026-01-23 18:45:13,741 - data_preprocessing - INFO - Data Preprocessing boshlandi: (2000, 21)
+2026-01-23 18:45:13,747 - data_preprocessing - INFO - Nan qiymatlar toldirildi
+2026-01-23 18:45:13,749 - data_preprocessing - INFO - Log transforming qilindi
+2026-01-23 18:45:13,753 - data_preprocessing - INFO - Scaling qilindi
+2026-01-23 18:45:13,823 - data_preprocessing - INFO - preprocessed data saqlandi
+2026-01-23 18:47:55,519 - data_preprocessing - INFO - Data Preprocessing boshlandi: (2000, 21)
+2026-01-23 18:47:55,524 - data_preprocessing - INFO - Nan qiymatlar toldirildi
+2026-01-23 18:47:55,526 - data_preprocessing - INFO - Log transforming qilindi
+2026-01-23 18:47:55,530 - data_preprocessing - INFO - Scaling qilindi
+2026-01-23 18:50:09,129 - data_preprocessing - INFO - Data Preprocessing boshlandi: (2000, 21)
+2026-01-23 18:50:09,134 - data_preprocessing - INFO - Nan qiymatlar toldirildi
+2026-01-23 18:50:09,136 - data_preprocessing - INFO - Log transforming qilindi
+2026-01-23 18:50:09,140 - data_preprocessing - INFO - Scaling qilindi
+2026-01-23 18:50:09,189 - data_preprocessing - INFO - preprocessed data saqlandi

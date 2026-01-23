@@ -1,4 +1,4 @@
-from .data_loading import DataLoad
+from .data_loading import data_load
 
 from .logger import get_logger
 

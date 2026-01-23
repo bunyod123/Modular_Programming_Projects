@@ -11,7 +11,7 @@ labeller = LabelEncoder()
 
 #--------------------------------------------------------------------------------------------------
 # logger ni qoshamiz
-path = sys.path.append(r"C:\Users\bunyo\oneDrive\desktop\AI_Course\ModularProgramProjects\SecondWeekProject")
+sys.path.append(r"C:\Users\bunyo\oneDrive\desktop\AI_Course\ModularProgramProjects\SecondWeekProject")
 from src.logger import get_logger
 logger = get_logger("data_preprocessing")
 
@@ -25,6 +25,30 @@ class Preprocessing:
          logger.info(f"Data Preprocessing boshlandi: {self.df.shape}")
         
   # -----------------------------------------------------------------------------------------
+  
+   # To'ldruvchi
+    def fillingNan(self):
+        try:
+            num_cols = self.df.select_dtypes(include=[np.number]).columns.tolist()
+            lab_cols = self.df.select_dtypes(exclude=[np.number]).columns.tolist()
+            
+            # Tekshirish: Agar ustunlar bo'lmasa xatolik bermasligi uchun
+            if num_cols:
+                num_imputer = SimpleImputer(strategy='mean')
+                self.df[num_cols] = num_imputer.fit_transform(self.df[num_cols])
+            
+            if lab_cols:
+                lab_imputer = SimpleImputer(strategy='most_frequent')
+                self.df[lab_cols] = lab_imputer.fit_transform(self.df[lab_cols])
+          
+            logger.info("Nan qiymatlar toldirildi")
+            return self  # <--- Muvaffaqiyatli bo'lsa qaytaradi
+            
+        except Exception as e:
+            logger.error(f"Xatolik yuz berdi: {e}")
+            raise e  # <--- MUHIM: Xatoni tashqariga chiqarish kerak!
+ 
+ # -----------------------------------------------------------------------------------------------   
         
 # Encoding qiluvchi
     def encoding_qilish(self):
@@ -41,47 +65,10 @@ class Preprocessing:
         except Exception as e:
             logger.error(f"Xatolikbor encoding qilishda {e}")
             raise e
-    
-    
-# ------------------------------------------------------------------------------------------
-
-# To'ldruvchi
-    def fillingNan(self):
-        try:
-            num_cols = self.df.select_dtypes(include=[np.number]).columns.tolist()
-            lab_cols = self.df.select_dtypes(exclude=[np.number]).columns.tolist()
-            
-            # Imputer yaratamiz
-            num_imputer = SimpleImputer(strategy='mean')
-            lab_imputer = SimpleImputer(strategy='most_frequent')
-            
-            self.df[num_cols] = num_imputer.fit_transform(self.df[num_cols])
-            self.df[lab_cols] = lab_imputer.fit_transform(self.df[lab_cols])
-          
-            logger.info("Nan qiymatlar toldirildi")
-            return self
-        except Exception as e:
-            logger.error(f"Xatolik yuz berdi {e}")
- 
+     
  # -----------------------------------------------------------------------------------------------   
-    
-# Scale qiluvchi
-    def scaling(self):
-        try:
-
-            num_cols = self.df.select_dtypes(include=[np.numbers]).columns.drop('price_range').tolist()
-            self.df[num_cols] = self.scaler.fit_transform(self.df[num_cols])
-
-            logger.info("Scaling qilindi")
-            return self
-        
-        except Exception as e:
-            logger.error("Scaling qilishda muammo boldi")
-            raise e
-    
-    # ---------------------------------------------------------------------------------------------
-    
-        # Log transforming
+ 
+      # Log transforming
     def logTransformation(self):
         try:
             skewness = self.df.skew()
@@ -94,7 +81,24 @@ class Preprocessing:
         except Exception as e:
             logger.error("Log tranform qilish da xatolik boldi")
             raise e
+    
+    # ---------------------------------------------------------------------------------------
+    
+# Scale qiluvchi
+    def scaling(self):
+        try:
+
+            num_cols = self.df.select_dtypes(include=[np.number]).columns.drop('price_range').tolist()
+            self.df[num_cols] = self.scaler.fit_transform(self.df[num_cols])
+
+            logger.info("Scaling qilindi")
+            return self
         
+        except Exception as e:
+            logger.error("Scaling qilishda muammo boldi")
+            raise e
+    
+    # ---------------------------------------------------------------------------------------------
         
     # Final data ni olish
     def getDataset(self):
@@ -105,23 +109,4 @@ class Preprocessing:
     #     folder = r"C:\Users\bunyo\OneDrive\Desktop\AI_Course\ModularProgramProjects\SecondWeekProject\data\preprocessed_data"    
     #     path = os.path.join(folder, "preprocessed_data.csv")
     #     df.to_csv(path, index = False)
-        
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    folder = r"C:\Users\bunyo\OneDrive\Desktop\AI_Course\ModularProgramProjects\FirstWeekProject\data\preprocessed_data"
-path = os.path.join(folder,'preprocessed_data.csv')
-df1.to_csv(path, index=False)
+  
