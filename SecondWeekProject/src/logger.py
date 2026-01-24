@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 
 def get_logger(log_file_name):
-    # 1. logger.py faylining aniq manzilini topamiz
+    # 1. logger.py faylining aniq manzili
     current_file = Path(__file__).resolve()
     project_root = current_file.parent.parent
     
@@ -27,8 +27,3 @@ def get_logger(log_file_name):
         logger.addHandler(file_handler)
 
     return logger
-
-# # Test qilib ko'rish uchun
-# if __name__ == "__main__":
-#     log = get_logger("test_run")
-#     log.info("Bu test log fayli.")

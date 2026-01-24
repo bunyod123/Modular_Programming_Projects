@@ -1,0 +1,1 @@
+# Bu File da malumotlar qanday va qaysi vaqtda bajarilyaptirgani yoziladi

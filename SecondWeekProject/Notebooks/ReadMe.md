@@ -1,0 +1,1 @@
+# Bu joydagi file da experement qilishga ishlatiladi

@@ -1,0 +1,1 @@
+# Bu joyda src file dagi tayyor class larni chaqirib ishlatib korganmiz

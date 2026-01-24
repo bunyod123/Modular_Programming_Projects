@@ -1,0 +1,1 @@
+# Bu file da modelga oid malumotlar turadi
