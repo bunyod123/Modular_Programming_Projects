@@ -1,0 +1,91 @@
+2026-02-06 11:32:23,690-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-06 11:37:23,058-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-06 11:40:49,183-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-06 11:42:32,162-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-06 11:42:32,162-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-06 11:55:27,866-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-06 11:55:27,873-data_preprocessing-INFO-Numerical qiymatlar toldirildi
+2026-02-06 11:55:27,876-data_preprocessing-INFO-Categorical qiymat toldirildi
+2026-02-06 12:07:11,650-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-06 12:07:11,657-data_preprocessing-INFO-Numerical qiymatlar toldirildi
+2026-02-06 12:07:11,662-data_preprocessing-INFO-Categorical qiymat toldirildi
+2026-02-06 12:08:02,804-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-06 12:08:02,813-data_preprocessing-INFO-Numerical qiymatlar toldirildi
+2026-02-06 12:08:02,817-data_preprocessing-INFO-Categorical qiymat toldirildi
+2026-02-06 12:09:41,878-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-06 12:09:41,884-data_preprocessing-INFO-Numerical qiymatlar toldirildi
+2026-02-06 12:09:41,888-data_preprocessing-INFO-Categorical qiymat toldirildi
+2026-02-06 12:11:13,659-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-06 12:11:13,665-data_preprocessing-INFO-Numerical qiymatlar toldirildi
+2026-02-06 12:11:13,671-data_preprocessing-INFO-Categorical qiymat toldirildi
+2026-02-06 12:12:06,701-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-06 12:12:06,707-data_preprocessing-INFO-Numerical qiymatlar toldirildi
+2026-02-06 12:12:06,712-data_preprocessing-INFO-Categorical qiymat toldirildi
+2026-02-06 12:12:06,757-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 12:12:06,758-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 12:12:06,761-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-06 12:12:06,761-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 12:12:06,762-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 12:12:06,762-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 12:12:06,764-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-06 12:12:06,768-data_preprocessing-INFO-MinMax yordamida scaling qilindi
+2026-02-06 12:12:06,768-data_preprocessing-INFO-Data preprocessing tugadi
+2026-02-06 16:27:35,134-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-06 16:27:35,141-data_preprocessing-INFO-Numerical qiymatlar toldirildi
+2026-02-06 16:27:35,146-data_preprocessing-INFO-Categorical qiymat toldirildi
+2026-02-06 16:27:35,150-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:27:35,151-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:27:35,153-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-06 16:27:35,154-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:27:35,155-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:27:35,155-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:27:35,156-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-06 16:27:35,160-data_preprocessing-INFO-MinMax yordamida scaling qilindi
+2026-02-06 16:27:35,160-data_preprocessing-INFO-Data preprocessing tugadi
+2026-02-06 16:31:07,001-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-06 16:31:07,006-data_preprocessing-INFO-Numerical qiymatlar toldirildi
+2026-02-06 16:31:07,009-data_preprocessing-INFO-Categorical qiymat toldirildi
+2026-02-06 16:31:07,012-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:31:07,012-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:31:07,014-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-06 16:31:07,014-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:31:07,015-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:31:07,015-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:31:07,017-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-06 16:31:07,021-data_preprocessing-INFO-MinMax yordamida scaling qilindi
+2026-02-06 16:31:07,021-data_preprocessing-INFO-Data preprocessing tugadi
+2026-02-06 16:32:17,308-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-06 16:32:17,316-data_preprocessing-INFO-Numerical qiymatlar toldirildi
+2026-02-06 16:32:17,322-data_preprocessing-INFO-Categorical qiymat toldirildi
+2026-02-06 16:32:17,326-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:32:17,326-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:32:17,328-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-06 16:32:17,328-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:32:17,329-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:32:17,329-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:32:17,331-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-06 16:32:17,335-data_preprocessing-INFO-MinMax yordamida scaling qilindi
+2026-02-06 16:39:55,059-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-06 16:39:55,069-data_preprocessing-INFO-Numerical qiymatlar toldirildi
+2026-02-06 16:39:55,072-data_preprocessing-INFO-Categorical qiymat toldirildi
+2026-02-06 16:39:55,076-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:39:55,076-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:39:55,079-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-06 16:39:55,079-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:39:55,080-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:39:55,081-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:39:55,084-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-06 16:39:55,089-data_preprocessing-INFO-MinMax yordamida scaling qilindi
+2026-02-06 16:39:55,089-data_preprocessing-INFO-Data preprocessing tugadi
+2026-02-06 16:41:01,685-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-06 16:41:01,691-data_preprocessing-INFO-Numerical qiymatlar toldirildi
+2026-02-06 16:41:01,695-data_preprocessing-INFO-Categorical qiymat toldirildi
+2026-02-06 16:41:01,700-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:41:01,701-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:41:01,703-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-06 16:41:01,703-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:41:01,704-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:41:01,704-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 16:41:01,707-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-06 16:41:01,710-data_preprocessing-INFO-MinMax yordamida scaling qilindi
+2026-02-06 16:41:01,710-data_preprocessing-INFO-Data preprocessing tugadi
