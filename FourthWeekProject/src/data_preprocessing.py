@@ -3,7 +3,7 @@ import numpy as np
 import sys
 import os
 from pathlib import Path
-from sklearn.preprocessing import LabelEncoder,MinMaxScaler
+from sklearn.preprocessing import LabelEncoder,MinMaxScaler,OrdinalEncoder
 from sklearn.impute import SimpleImputer
 
 
@@ -22,7 +22,9 @@ class Prerocessing:
         self.labeling = LabelEncoder()
         self.minmax = MinMaxScaler()
         loging.info("Data preprocessing boshlandi")
-    # --------------------------------------------------------------------------------------- 
+        
+# --------------------------------------------------------------------------------------- 
+    
     # Nan qiymatlarni toldiruvchi funksiya      
     def Nan_toldiruvchi(self):
         try:
@@ -44,7 +46,27 @@ class Prerocessing:
         except Exception as e:
             loging.info(f"Xatolik yuz berdi {e}")
             
-    # ----------------------------------------------------------------------------------      
+# ----------------------------------------------------------------------------------
+    
+    # ordinal bilan encoding qilish
+    def ordinal_encoder(self, mapping):
+        try:
+            for column, order in mapping.items():
+                if column in self.df.columns:
+                    encoder = OrdinalEncoder(
+                        categories=[order],
+                        handle_unknown='use_encoded_value',
+                        unknown_value=1
+                    )
+                    self.df[[column]] = encoder.fit_transform(self.df[[column]])
+                    loging.info(f"ustun ordinal yordamida kodlandi.")
+            return self
+        except Exception as e:
+            loging.error(f"Encodingda xatolik boldi: {e}")
+            return self
+         
+# ----------------------------------------------------------------------------------   
+       
     # Categorical qiymatlarni Encoding qilish funksiyasi       
     def Encoder(self):
         
@@ -66,7 +88,8 @@ class Prerocessing:
                 loging.info(f"Qandaydir xatolik boldi {e}")
         return self
     
-    # ------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------
+    
     # Barcha numerical qiymatni MinMax orqali scaling qilish funksiyasi
     def scaling(self, target):
         
@@ -83,7 +106,8 @@ class Prerocessing:
         except Exception as e:
             loging.info(f"Scalin qilishda xatolik yuz berdi {e}")
     
-    # -------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------
+    
     # Preprocessed datani olish     
     def get_preprocessed_data(self):
         try:
@@ -92,15 +116,20 @@ class Prerocessing:
         except Exception as e:
             loging.info("Xatolik yuz berdi {e}")
         
-    # ---------------------------------------------------------------------             
-                    
+# ---------------------------------------------------------------------     
+            
+    # preprocessed bolgan data ni saqlaydigan funksiya       
     def data_save(self):
-        current_file = Path(__file__).resolve()
-        project_folder = current_file.parent.parent
+        try:
+            current_file = Path(__file__).resolve()
+            project_folder = current_file.parent.parent
 
-        data_path = project_folder/"data"/"preprocessed_data"
-        data_path.mkdir(parents=True, exist_ok=True)
-        full_data_path = data_path/"preprocessed_data.csv"
-        self.df.to_csv(full_data_path, index = False)
-        
-    # -----------------------------------------------------------------------
+            data_path = project_folder/"data"/"preprocessed_data"
+            data_path.mkdir(parents=True, exist_ok=True)
+            full_data_path = data_path/"preprocessed_data.csv"
+            self.df.to_csv(full_data_path, index = False)
+            loging.info(f"Preprocessed data saqlandi {self.df.shape[0]} ta qator va {self.df.shape[1]} ta ustun")
+    
+        except Exception as e:
+            loging.info("Datasetni saqlashda xatolik boldi")
+# -----------------------------------------------------------------------

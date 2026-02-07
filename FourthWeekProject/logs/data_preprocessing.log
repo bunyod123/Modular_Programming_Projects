@@ -89,3 +89,108 @@
 2026-02-06 16:41:01,707-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
 2026-02-06 16:41:01,710-data_preprocessing-INFO-MinMax yordamida scaling qilindi
 2026-02-06 16:41:01,710-data_preprocessing-INFO-Data preprocessing tugadi
+2026-02-06 19:26:03,227-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-06 19:26:03,232-data_preprocessing-INFO-Numerical qiymatlar toldirildi
+2026-02-06 19:26:03,236-data_preprocessing-INFO-Categorical qiymat toldirildi
+2026-02-06 19:26:03,237-data_preprocessing-ERROR-Encodingda xatolik boldi: The used value for unknown_value 1 is one of the values already used for encoding the seen categories.
+2026-02-06 19:26:03,240-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 19:26:03,240-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 19:26:03,242-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-06 19:26:03,243-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 19:26:03,243-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 19:26:03,244-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-06 19:26:03,245-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-06 19:26:03,248-data_preprocessing-INFO-MinMax yordamida scaling qilindi
+2026-02-06 19:26:03,248-data_preprocessing-INFO-Data preprocessing tugadi
+2026-02-06 19:26:03,283-data_preprocessing-INFO-Preprocessed data saqlandi 1000 ta qator va 18 ta ustun
+2026-02-07 10:50:02,599-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-07 10:50:02,606-data_preprocessing-INFO-Numerical qiymatlar toldirildi
+2026-02-07 10:50:02,611-data_preprocessing-INFO-Categorical qiymat toldirildi
+2026-02-07 10:50:02,612-data_preprocessing-ERROR-Encodingda xatolik boldi: The used value for unknown_value 1 is one of the values already used for encoding the seen categories.
+2026-02-07 10:50:02,616-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 10:50:02,618-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-07 10:50:02,619-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 10:50:02,619-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 10:50:02,619-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 10:50:02,621-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-07 10:50:02,625-data_preprocessing-INFO-MinMax yordamida scaling qilindi
+2026-02-07 10:50:02,625-data_preprocessing-INFO-Data preprocessing tugadi
+2026-02-07 10:50:02,661-data_preprocessing-INFO-Preprocessed data saqlandi 1000 ta qator va 20 ta ustun
+2026-02-07 11:05:21,689-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-07 11:05:21,694-data_preprocessing-INFO-Numerical qiymatlar toldirildi
+2026-02-07 11:05:21,698-data_preprocessing-INFO-Categorical qiymat toldirildi
+2026-02-07 11:05:21,698-data_preprocessing-ERROR-Encodingda xatolik boldi: The used value for unknown_value 1 is one of the values already used for encoding the seen categories.
+2026-02-07 11:05:21,699-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:05:21,701-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-07 11:05:21,701-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:05:21,702-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:05:21,703-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:05:21,705-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-07 11:05:21,709-data_preprocessing-INFO-MinMax yordamida scaling qilindi
+2026-02-07 11:05:21,709-data_preprocessing-INFO-Data preprocessing tugadi
+2026-02-07 11:05:21,741-data_preprocessing-INFO-Preprocessed data saqlandi 1000 ta qator va 20 ta ustun
+2026-02-07 11:05:43,542-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-07 11:05:43,549-data_preprocessing-INFO-Numerical qiymatlar toldirildi
+2026-02-07 11:05:43,552-data_preprocessing-INFO-Categorical qiymat toldirildi
+2026-02-07 11:05:43,554-data_preprocessing-ERROR-Encodingda xatolik boldi: The used value for unknown_value 1 is one of the values already used for encoding the seen categories.
+2026-02-07 11:05:43,555-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:05:43,559-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-07 11:05:43,559-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:05:43,560-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:05:43,560-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:05:43,562-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-07 11:05:43,565-data_preprocessing-INFO-MinMax yordamida scaling qilindi
+2026-02-07 11:05:43,566-data_preprocessing-INFO-Data preprocessing tugadi
+2026-02-07 11:05:43,602-data_preprocessing-INFO-Preprocessed data saqlandi 1000 ta qator va 20 ta ustun
+2026-02-07 11:07:01,628-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-07 11:07:01,635-data_preprocessing-INFO-Numerical qiymatlar toldirildi
+2026-02-07 11:07:01,639-data_preprocessing-INFO-Categorical qiymat toldirildi
+2026-02-07 11:07:01,640-data_preprocessing-ERROR-Encodingda xatolik boldi: The used value for unknown_value 1 is one of the values already used for encoding the seen categories.
+2026-02-07 11:07:01,641-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:07:01,643-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-07 11:07:01,643-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:07:01,644-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:07:01,644-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:07:01,646-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-07 11:07:01,650-data_preprocessing-INFO-MinMax yordamida scaling qilindi
+2026-02-07 11:07:01,650-data_preprocessing-INFO-Data preprocessing tugadi
+2026-02-07 11:07:01,682-data_preprocessing-INFO-Preprocessed data saqlandi 1000 ta qator va 20 ta ustun
+2026-02-07 11:17:34,213-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-07 11:17:34,219-data_preprocessing-INFO-Numerical qiymatlar toldirildi
+2026-02-07 11:17:34,222-data_preprocessing-INFO-Categorical qiymat toldirildi
+2026-02-07 11:17:34,223-data_preprocessing-ERROR-Encodingda xatolik boldi: The used value for unknown_value 1 is one of the values already used for encoding the seen categories.
+2026-02-07 11:17:34,224-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:17:34,225-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-07 11:17:34,226-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:17:34,226-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:17:34,227-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:17:34,228-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-07 11:17:34,233-data_preprocessing-INFO-MinMax yordamida scaling qilindi
+2026-02-07 11:17:34,233-data_preprocessing-INFO-Data preprocessing tugadi
+2026-02-07 11:17:34,272-data_preprocessing-INFO-Preprocessed data saqlandi 1000 ta qator va 20 ta ustun
+2026-02-07 11:27:39,575-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-07 11:27:39,581-data_preprocessing-INFO-Numerical qiymatlar toldirildi
+2026-02-07 11:27:39,584-data_preprocessing-INFO-Categorical qiymat toldirildi
+2026-02-07 11:27:39,585-data_preprocessing-ERROR-Encodingda xatolik boldi: The used value for unknown_value 1 is one of the values already used for encoding the seen categories.
+2026-02-07 11:27:39,589-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:27:39,591-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-07 11:27:39,591-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:27:39,592-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:27:39,592-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:27:39,594-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-07 11:27:39,598-data_preprocessing-INFO-MinMax yordamida scaling qilindi
+2026-02-07 11:27:39,598-data_preprocessing-INFO-Data preprocessing tugadi
+2026-02-07 11:27:39,620-data_preprocessing-INFO-Preprocessed data saqlandi 1000 ta qator va 20 ta ustun
+2026-02-07 11:55:23,081-data_preprocessing-INFO-Data preprocessing boshlandi
+2026-02-07 11:55:23,088-data_preprocessing-INFO-Numerical qiymatlar toldirildi
+2026-02-07 11:55:23,091-data_preprocessing-INFO-Categorical qiymat toldirildi
+2026-02-07 11:55:23,091-data_preprocessing-ERROR-Encodingda xatolik boldi: The used value for unknown_value 1 is one of the values already used for encoding the seen categories.
+2026-02-07 11:55:23,092-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:55:23,094-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-07 11:55:23,095-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:55:23,095-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:55:23,095-data_preprocessing-INFO-Ayrim ustunla Labeling bilan encoding qilindi
+2026-02-07 11:55:23,097-data_preprocessing-INFO-Ayrim ustunla One Hot bilan Encoding qilindi
+2026-02-07 11:55:23,101-data_preprocessing-INFO-MinMax yordamida scaling qilindi
+2026-02-07 11:55:23,101-data_preprocessing-INFO-Data preprocessing tugadi
+2026-02-07 11:55:23,134-data_preprocessing-INFO-Preprocessed data saqlandi 1000 ta qator va 20 ta ustun
