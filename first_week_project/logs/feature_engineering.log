@@ -3,3 +3,13 @@
 2026-02-17 13:34:29,567-feature_engineering-INFO-Total ruputatsiya df ga qoshildi
 2026-02-17 13:34:29,568-feature_engineering-INFO-global connectivity qoshildi
 2026-02-17 13:34:29,590-feature_engineering-INFO-Engineered data saqlandi (1279, 14)
+2026-02-17 13:45:40,173-feature_engineering-INFO-Feature engineering boshlandi
+2026-02-17 13:45:40,174-feature_engineering-INFO-Location va Universitet nomi ustuni tashab yuborildi
+2026-02-17 13:45:40,175-feature_engineering-INFO-Total ruputatsiya df ga qoshildi
+2026-02-17 13:45:40,175-feature_engineering-INFO-global connectivity qoshildi
+2026-02-17 13:45:40,193-feature_engineering-INFO-Engineered data saqlandi (1279, 14)
+2026-02-17 13:48:18,405-feature_engineering-INFO-Feature engineering boshlandi
+2026-02-17 13:48:18,406-feature_engineering-INFO-Location va Universitet nomi ustuni tashab yuborildi
+2026-02-17 13:48:18,407-feature_engineering-INFO-Total ruputatsiya df ga qoshildi
+2026-02-17 13:48:18,408-feature_engineering-INFO-global connectivity qoshildi
+2026-02-17 13:48:18,426-feature_engineering-INFO-Engineered data saqlandi (1279, 14)

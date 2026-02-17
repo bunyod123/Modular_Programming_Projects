@@ -1,6 +1,6 @@
 import sys
 import pandas as pd
-sys.path.append(r"C:\Users\bunyo\oneDrive\desktop\AI_Course\ModularProgramProjects\FourthWeekProject")
+sys.path.append(r"C:\Users\bunyo\OneDrive\Desktop\AI_Course\ModularProgramProjects\first_week_project")
 
 # Class va data ni import qilish
 from src.data_preprocessing import Prerocessing
@@ -10,9 +10,7 @@ df = engineered_data
 # ----------------------------------------------------------------------------
 # data uchun ordinal encoding yaratish
 mapping = {
-    'diet_quality': ['Poor', 'Fair', 'Good'],
-    'parental_education_level': ['High School', 'Bachelor', 'Master'],
-    'internet_quality': ['Poor', 'Average', 'Good']
+    'Score_class': ['Good','very good','great','really great','best',]
     }
 
 # ----------------------------------------------------------------------------
@@ -23,7 +21,7 @@ pre_data = (
     result.Nan_toldiruvchi()
     .ordinal_encoder(mapping=mapping)
     .Encoder()
-    .scaling(target = 'exam_score')
+    .scaling(target = 'Score_class')
     .get_preprocessed_data()
 )
 print(pre_data.head())
