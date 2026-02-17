@@ -18,17 +18,15 @@ def feature_engineering(df):
     try:
         logging.info("Feature engineering boshlandi")
         
-       
+        df = df.drop('Location', axis=1)
+        logging.info('Location ustuni tashab yuborildi')
         
-        df['total_screen_time'] = df['social_media_hours'] + df['netflix_hours']
-        logging.info("Ijtimoiy tarmoqdan qancha foydalanish qoshildi")
+        df['Total_Reputation'] = (df['Acedemik Reputation'] + df['employer_reputation']) / 2
+        logging.info("Total ruputatsiya df ga qoshildi")
         
-        df['lifestyle_score'] = (df['sleep_hours'] + df['exercise_frequency'] + df['mental_health_rating'])/3
-        logging.info("Faol hayot tarzi qoshildi")
         
-        df['study_effectivness'] = (df['study_hours_per_day']) * (df['attendance_percentage']/100)
-        logging.info("Qanchalik effective oqishi qoshildi")   
-        
+        df['Global_Connectivity'] = (df['international_faculty_ratio'] + df['international_research_network']) / 2  
+        logging.info('global connectivity qoshildi')
         return df
         
     except Exception as e:
