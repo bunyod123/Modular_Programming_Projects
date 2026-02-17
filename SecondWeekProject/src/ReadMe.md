@@ -1,1 +1,0 @@
-# Bu file da faqat ishlatishga tayyor class va funksiyalar turadi
