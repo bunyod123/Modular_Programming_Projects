@@ -1,7 +1,7 @@
 import pandas as pd
 import sys
 from pathlib import Path
-sys.path.append(r"C:\Users\bunyo\oneDrive\desktop\AI_Course\ModularProgramProjects\FourthWeekProject")
+sys.path.append(r"C:\Users\bunyo\OneDrive\Desktop\AI_Course\ModularProgramProjects\first_week_project")
 
 # ---------------------------------------------------------------------------------------------
 
@@ -18,8 +18,7 @@ def feature_engineering(df):
     try:
         logging.info("Feature engineering boshlandi")
         
-        df = df.drop("student_id",axis=1, errors='ignore' )
-        logging.info("Student_Id ustuni tashlab yuborildi")
+       
         
         df['total_screen_time'] = df['social_media_hours'] + df['netflix_hours']
         logging.info("Ijtimoiy tarmoqdan qancha foydalanish qoshildi")
@@ -33,7 +32,7 @@ def feature_engineering(df):
         return df
         
     except Exception as e:
-        logging.info("Feature engineering qilishda xatolik boldi")
+        logging.info(f"Feature engineering qilishda xatolik boldi {e}")
         
         
         
@@ -54,4 +53,4 @@ def data_save(df):
         return True
 
     except Exception as e:
-        logging.info("Datasetni saqlashda xatolik boldi")
+        logging.info(f"Datasetni saqlashda xatolik boldi {e}")

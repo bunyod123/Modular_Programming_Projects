@@ -54,21 +54,21 @@ class Pipeline(BaseEstimator):
         X, y = self.prepare_feature()
 
         if self.model_algorithm is None:
-            raise ValueError("No model specified. Pass a scikit-learn estimator.")
+            raise ValueError("No model specified")
 
         
         self.model = Pipeline([
             ('preprocessor', self.preprocessor),
             ('estimator', self.model_algorithm)
         ])
-        logging.info("Modelga data fit qilindi")
+        logging.info("Modelga data fit qilindiku")
         
         self.model.fit(X, y)
         return self
 
     def predict(self, X=None):
         if self.model is None:
-            raise ValueError("Model not fitted yet. Call fit() first.")
+            raise ValueError("Model not fitted yet. ")
         if X is None:
             X = self.df.drop(columns=[self.target])
         logging.info("model predict qilish boshlandi")
@@ -76,9 +76,9 @@ class Pipeline(BaseEstimator):
 
     def score(self, X=None, y=None):
         if self.model is None:
-            raise ValueError("Model not fitted yet. Call fit() first.")
+            raise ValueError("Model not fitted yet.")
         if X is None and y is None:
             X = self.df.drop(columns=[self.target])
             y = self.df[self.target]
-        logging.info("Modelni predict scori olchandi")
+        logging.info("Modelni predict scori olchandiyu")
         return self.model.score(X, y)

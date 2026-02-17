@@ -9,7 +9,7 @@ from sklearn.impute import SimpleImputer
 
 # -------------------------------------------------------------------------------------------
 # logging uchun path yaratish
-sys.path.append(r"C:\Users\bunyo\oneDrive\desktop\AI_Course\ModularProgramProjects\FourthWeekProject")
+sys.path.append(r"C:\Users\bunyo\OneDrive\Desktop\AI_Course\ModularProgramProjects\first_week_project")
 from src.log import get_logger
 loging = get_logger("data_preprocessing")
 
