@@ -1,6 +1,6 @@
 import pandas as pd
 import sys
-sys.path.append(r"C:\Users\bunyo\oneDrive\desktop\AI_Course\ModularProgramProjects\FourthWeekProject")
+sys.path.append(r"C:\Users\bunyo\OneDrive\Desktop\AI_Course\ModularProgramProjects\first_week_project")
 
 from src.feature_engineering import feature_engineering, data_save
 from scripts.data_loading import df

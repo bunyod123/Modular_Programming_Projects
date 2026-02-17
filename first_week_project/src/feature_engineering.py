@@ -18,8 +18,8 @@ def feature_engineering(df):
     try:
         logging.info("Feature engineering boshlandi")
         
-        df = df.drop('Location', axis=1)
-        logging.info('Location ustuni tashab yuborildi')
+        df = df.drop(['Location','Name'], axis=1)
+        logging.info('Location va Universitet nomi ustuni tashab yuborildi')
         
         df['Total_Reputation'] = (df['Acedemik Reputation'] + df['employer_reputation']) / 2
         logging.info("Total ruputatsiya df ga qoshildi")
