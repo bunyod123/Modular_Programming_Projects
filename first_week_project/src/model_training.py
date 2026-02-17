@@ -74,7 +74,7 @@ class ModelTraining:
 
                 results.append({
                     "Model": name,
-                    "CV R2 (avg)": round(avg_cv_ac, 2),
+                    "CV ACC (avg)": round(avg_cv_ac, 2),
                     "accuracy" : accuracy
                 })
 
