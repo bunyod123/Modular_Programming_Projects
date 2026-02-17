@@ -90,7 +90,7 @@ class Prerocessing:
     
 # ------------------------------------------------------------------------------------
     
-    # Barcha numerical qiymatni MinMax orqali scaling qilish funksiyasi
+    # MinMax orqali scaling qilish
     def scaling(self, target):
         
         try:
@@ -118,7 +118,7 @@ class Prerocessing:
         
 # ---------------------------------------------------------------------     
             
-    # preprocessed bolgan data ni saqlaydigan funksiya       
+    # preprocessed bolgan data ni saqlash      
     def data_save(self):
         try:
             current_file = Path(__file__).resolve()

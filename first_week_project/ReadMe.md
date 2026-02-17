@@ -3,34 +3,20 @@
 #      Model uchun ishlatilgan dataset dagi kalit sozlar: 
 
   
-student_id ----------  Talaba ID raqami
+Citations per Faculty — Har bir o'qituvchiga to'g'ri keladigan iqtiboslar soni (ilmiy maqolalariga boshqalar qanchalik ko'p havola berganligi)
 
-age ----------  Yosh
+Academic Reputation — Akademik nufuz (boshqa olimlar va universitetlar orasidagi obro'si)
 
-gender --------  Jins
+Faculty Student Ratio — O'qituvchi va talabalar nisbati (bitta o'qituvchiga nechta talaba to'g'ri kelishi)
 
-study_hours_per_day ----------  Kuniga o‘qish soatlari
+Employer Reputation — Ish beruvchilar nazdidagi nufuz (kompaniyalar ushbu universitet bitiruvchilarini qanchalik qadrlashi)
 
-social_media_hours -----------   Ijtimoiy tarmoqlarga sarflangan vaqt (soat)
+Employment Outcomes — Ishga joylashish natijalari (bitiruvchilarning qanchalik tez va yaxshi ish topishi)
 
-netflix_hours ---------  Netflix tomosha qilish vaqti (soat)
+International Student Ratio — Xalqaro talabalar ulushi (chet ellik talabalar qanchalik ko'pligi)
 
-part_time_job --------   Yarim stavkali ish (bor/yo‘q)
+International Research Network — Xalqaro ilmiy-tadqiqot tarmog'i (boshqa davlatlar bilan ilmiy hamkorlik darajasi)
 
-attendance_percentage --------    Darsga qatnashish foizi (%)
+International Faculty Ratio — Xalqaro o'qituvchilar ulushi (chet ellik professor-o'qituvchilar qanchalik ko'pligi)
 
-sleep_hours ----------   Uyqu soatlari
-
-diet_quality ----------   Ovqatlanish sifati
-
-exercise_frequency ---------  Mashq qilish chastotasi
-
-parental_education_level  -----------  Ota-onaning ta’lim darajasi
-
-internet_quality ------------  Internet sifati
-
-mental_health_rating ---------  Ruhiy holat bahosi
-
-extracurricular_participation ----------  Qo‘shimcha mashg‘ulotlarda qatnashish
-
-exam_score -------------  Imtihon bali
+Sustainability Score — Barqarorlik ko'rsatkichi (ekologiya va ijtimoiy barqarorlikka qo'shgan hissasi bali)
