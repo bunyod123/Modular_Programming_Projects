@@ -1,0 +1,18 @@
+2026-02-17 15:53:05,148-model_training-INFO-Training boshlandi: X=(2911, 13), y=(2911,)
+2026-02-17 15:53:05,193-model_training-INFO-OvO o'qitilish boshlandi
+2026-02-17 15:53:05,725-model_training-INFO-OvR o'qitilish boshlandi
+2026-02-17 15:53:06,555-model_training-INFO-Ridge o'qitilish boshlandi
+2026-02-17 15:53:06,641-model_training-ERROR-Xatolik: Classification metrics can't handle a mix of multiclass and continuous targets
+2026-02-17 15:56:22,222-model_training-INFO-Training boshlandi: X=(2911, 13), y=(2911,)
+2026-02-17 15:56:22,225-model_training-INFO-OvO o'qitilish boshlandi
+2026-02-17 15:56:22,670-model_training-INFO-OvR o'qitilish boshlandi
+2026-02-17 15:56:23,106-model_training-INFO-Ridge o'qitilish boshlandi
+2026-02-17 15:56:23,128-model_training-ERROR-Xatolik: Classification metrics can't handle a mix of multiclass and continuous targets
+2026-02-17 16:04:22,163-model_training-INFO-Training boshlandi: X=(2911, 13), y=(2911,)
+2026-02-17 16:04:22,165-model_training-INFO-OvO o'qitilish boshlandi
+2026-02-17 16:04:22,683-model_training-INFO-OvR o'qitilish boshlandi
+2026-02-17 16:04:23,250-model_training-INFO-Decision Tree o'qitilish boshlandi
+2026-02-17 16:04:23,372-model_training-INFO-Random Forest o'qitilish boshlandi
+2026-02-17 16:04:25,495-model_training-INFO-XGBoost o'qitilish boshlandi
+2026-02-17 16:04:27,937-model_training-INFO-KNN o'qitilish boshlandi
+2026-02-17 16:04:28,084-model_training-INFO-Gradient Boosting o'qitilish boshlandi

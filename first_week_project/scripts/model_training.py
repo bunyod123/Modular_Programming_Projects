@@ -1,14 +1,16 @@
 import sys
+import pandas as pd
 import joblib
 from sklearn.model_selection import train_test_split
 
-sys.path.append(r"C:\Users\bunyo\oneDrive\desktop\AI_Course\ModularProgramProjects\FourthWeekProject")
+sys.path.append(r"C:\Users\bunyo\OneDrive\Desktop\AI_Course\ModularProgramProjects\first_week_project")
+df = pd.read_csv(r"C:\Users\bunyo\OneDrive\Desktop\AI_Course\ModularProgramProjects\first_week_project\data_sampling\over_sampled_final_data.csv")
 
 from src.model_training import ModelTraining
-from scripts.data_preprocessing import pre_data
 
-X = pre_data.drop("exam_score", axis=1, errors='ignore')
-y = pre_data["exam_score"]
+
+X = df.drop("Score_class", axis=1, errors='ignore')
+y = df["Score_class"]
 
 result = ModelTraining(X=X,y=y)
 
@@ -19,13 +21,13 @@ print(jadval)
 
 
 eng_zor_model_nomi = jadval.iloc[0]["Model"]
-eng_zor_natija = jadval.iloc[0]["Test R2"]
+eng_zor_natija = jadval.iloc[0]["accuracy"]
 
 eng_yomon_model_nomi = jadval.iloc[-1]["Model"]
-eng_yomon_natija = jadval.iloc[-1]["Test R2"]
+eng_yomon_natija = jadval.iloc[-1]["accuracy"]
 
-print(f"Eng zo'r model: {eng_yomon_model_nomi} (R2: {eng_yomon_natija})")
-print(f"Eng zo'r model: {eng_yomon_model_nomi} (R2: {eng_yomon_natija})")
+print(f"Eng zo'r model: {eng_yomon_model_nomi} (accuracy: {eng_yomon_natija})")
+print(f"Eng zo'r model: {eng_yomon_model_nomi} (accuracy: {eng_yomon_natija})")
 
 
 best_model_object = result.trained_models[eng_zor_model_nomi]

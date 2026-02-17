@@ -13,3 +13,8 @@
 2026-02-17 13:48:18,407-feature_engineering-INFO-Total ruputatsiya df ga qoshildi
 2026-02-17 13:48:18,408-feature_engineering-INFO-global connectivity qoshildi
 2026-02-17 13:48:18,426-feature_engineering-INFO-Engineered data saqlandi (1279, 14)
+2026-02-17 15:46:19,522-feature_engineering-INFO-Feature engineering boshlandi
+2026-02-17 15:46:19,523-feature_engineering-INFO-Location va Universitet nomi ustuni tashab yuborildi
+2026-02-17 15:46:19,525-feature_engineering-INFO-Total ruputatsiya df ga qoshildi
+2026-02-17 15:46:19,526-feature_engineering-INFO-global connectivity qoshildi
+2026-02-17 15:46:19,546-feature_engineering-INFO-Engineered data saqlandi (1279, 14)
