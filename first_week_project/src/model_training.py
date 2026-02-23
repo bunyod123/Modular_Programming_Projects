@@ -13,10 +13,10 @@ from sklearn.multiclass import OneVsOneClassifier, OneVsRestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
-from sklearn.svm import SVR
+from sklearn.svm import SVC
 from xgboost import XGBClassifier
-from lightgbm import LGBMClassifier
-from sklearn.linear_model import Ridge, Lasso
+# from lightgbm import LGBMClassifier
+# from sklearn.linear_model import Ridge, Lasso
 from sklearn.neighbors import KNeighborsClassifier
 
 
