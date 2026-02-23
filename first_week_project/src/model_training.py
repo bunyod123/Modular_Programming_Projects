@@ -82,4 +82,3 @@ class ModelTraining:
 
         except Exception as e:
             logging.error(f"Xatolik: {e}")
-            raise e
