@@ -1,0 +1,1 @@
+from .model_trainig import jadval
