@@ -18,15 +18,18 @@ def feature_engineering(df):
     try:
         logging.info("Feature engineering boshlandi")
         
-        df = df.drop(['Location','Name'], axis=1)
-        logging.info('Location va Universitet nomi ustuni tashab yuborildi')
+        df = df.drop(['Location','Date','Network'], axis=1)
+        logging.info('Location va Date va Network ustuni tashab yuborildi')
         
-        df['Total_Reputation'] = (df['Acedemik Reputation'] + df['employer_reputation']) / 2
-        logging.info("Total ruputatsiya df ga qoshildi")
+        df['Is_Shallow'] = (df['Depth'] < 70).astype(int)
+        logging.info("Zilzila chuqurligi asosida chuqur yoki sayoz ligi qoshildi")
         
         
-        df['Global_Connectivity'] = (df['international_faculty_ratio'] + df['international_research_network']) / 2  
+        df['Mag_Level'] = pd.cut(df['Magnituda'], bins=[0, 3, 5, 8], labels=['safe', 'dangerous', 'very deangerous'])  
         logging.info('global connectivity qoshildi')
+        
+        df2 = df.dropna()
+        logging.info("Magnituda ustunida nan qiymati bor 79 ta qator tashlab yuborildi")
         return df
         
     except Exception as e:
@@ -37,7 +40,7 @@ def feature_engineering(df):
 # ---------------------------------------------------------------------------------------------
 
 # Engineered datani saqlash
-def data_save(df):
+def data_save(df2):
     try:
         current_file = Path(__file__).resolve()
         project_folder = current_file.parent.parent
@@ -46,8 +49,8 @@ def data_save(df):
         data_path.mkdir(parents=True, exist_ok=True)
         
         full_data_path = data_path/"engineered_data.csv"
-        df.to_csv(full_data_path, index = False)
-        logging.info(f"Engineered data saqlandi {df.shape}")
+        df2.to_csv(full_data_path, index = False)
+        logging.info(f"Engineered data saqlandi {df2.shape}")
         return True
 
     except Exception as e:
