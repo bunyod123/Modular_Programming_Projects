@@ -5,3 +5,29 @@
 2026-02-24 15:30:16,066-INFO-Datasetni yuklash boshlandi
 2026-02-24 15:30:42,095-INFO-Datasetni yuklash boshlandi
 2026-02-24 15:41:14,924-INFO-Datasetni yuklash boshlandi
+2026-02-24 15:55:11,219-INFO-Datasetni yuklash boshlandi
+2026-02-24 15:55:11,908-INFO-dataset yuklandi 9088 ta qator va 8 ta ustun bilan
+2026-02-24 15:55:20,822-INFO-Datasetni yuklash boshlandi
+2026-02-24 15:55:21,516-INFO-dataset yuklandi 9088 ta qator va 8 ta ustun bilan
+2026-02-24 15:55:21,522-INFO-Feature engineering boshlandi
+2026-02-24 15:55:21,524-INFO-Location va Date va Network ustuni tashab yuborildi
+2026-02-24 15:55:21,525-INFO-Zilzila chuqurligi asosida chuqur yoki sayoz ligi qoshildi
+2026-02-24 15:55:21,530-INFO-global connectivity qoshildi
+2026-02-24 15:55:21,531-INFO-Magnituda ustunida nan qiymati bor 79 ta qator tashlab yuborildi
+2026-02-24 15:55:21,555-INFO-Engineered data saqlandi (9088, 7)
+2026-02-24 15:56:46,021-INFO-Datasetni yuklash boshlandi
+2026-02-24 15:57:10,070-INFO-Datasetni yuklash boshlandi
+2026-02-24 15:57:10,739-INFO-dataset yuklandi 9088 ta qator va 8 ta ustun bilan
+2026-02-24 15:57:10,746-INFO-Feature engineering boshlandi
+2026-02-24 15:57:10,747-INFO-Location va Date va Network ustuni tashab yuborildi
+2026-02-24 15:57:10,747-INFO-Zilzila chuqurligi asosida chuqur yoki sayoz ligi qoshildi
+2026-02-24 15:57:10,748-INFO-global connectivity qoshildi
+2026-02-24 15:57:10,749-INFO-Magnituda ustunida nan qiymati bor 79 ta qator tashlab yuborildi
+2026-02-24 15:57:10,773-INFO-Engineered data saqlandi (9088, 7)
+2026-02-24 15:58:56,750-INFO-Datasetni yuklash boshlandi
+2026-02-24 15:58:57,434-INFO-dataset yuklandi 9088 ta qator va 8 ta ustun bilan
+2026-02-24 15:59:17,051-INFO-Datasetni yuklash boshlandi
+2026-02-24 15:59:47,708-data_loading-INFO-Datasetni yuklash boshlandi
+2026-02-24 15:59:48,380-data_loading-INFO-dataset yuklandi 9088 ta qator va 8 ta ustun bilan
+2026-02-24 16:00:12,744-data_loading-INFO-Datasetni yuklash boshlandi
+2026-02-24 16:00:13,466-data_loading-INFO-dataset yuklandi 9088 ta qator va 8 ta ustun bilan

@@ -1,0 +1,6 @@
+2026-02-24 16:00:13,472-feature_engineering-INFO-Feature engineering boshlandi
+2026-02-24 16:00:13,472-feature_engineering-INFO-Location va Date va Network ustuni tashab yuborildi
+2026-02-24 16:00:13,473-feature_engineering-INFO-Zilzila chuqurligi asosida chuqur yoki sayoz ligi qoshildi
+2026-02-24 16:00:13,474-feature_engineering-INFO-global connectivity qoshildi
+2026-02-24 16:00:13,476-feature_engineering-INFO-Magnituda ustunida nan qiymati bor 79 ta qator tashlab yuborildi
+2026-02-24 16:00:13,495-feature_engineering-INFO-Engineered data saqlandi (9088, 7)
