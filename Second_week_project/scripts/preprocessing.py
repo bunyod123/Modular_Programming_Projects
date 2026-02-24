@@ -10,7 +10,7 @@ df = pd.read_csv(r"C:\Users\bunyo\onedrive\desktop\AI_Course\ModularProgramProje
 # ----------------------------------------------------------------------------
 # data uchun ordinal encoding yaratish
 mapping = {
-    'Score_class': ['safe','dangerous','very deangerous']
+    'Level': ['safe','dangerous','very deangerous']
     }
 
 # ----------------------------------------------------------------------------
@@ -21,7 +21,7 @@ pre_data = (
     result.Nan_toldiruvchi()
     .ordinal_encoder(mapping=mapping)
     .Encoder()
-    .scaling(target = 'Score_class')
+    .scaling(target = 'Mag_Level')
     .get_preprocessed_data()
 )
 print(pre_data.head())
