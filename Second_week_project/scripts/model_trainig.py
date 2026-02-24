@@ -28,7 +28,7 @@ eng_zor_natija = jadval.iloc[0]["accuracy"]
 eng_yomon_model = jadval.iloc[-1]["Model"]
 eng_yomon_natija = jadval.iloc[-1]["accuracy"]
 
-print(f"Eng zo'r model: {eng_yomon_model} (accuracy: {eng_zor_model})")
+print(f"Eng zo'r model: {eng_zor_model} (accuracy: {eng_zor_natija})")
 print(f"Eng yomon model: {eng_yomon_model} (accuracy: {eng_yomon_natija})")
 
 

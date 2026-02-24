@@ -6,3 +6,19 @@
 2026-02-24 16:42:36,190-model_training-INFO-XGBoost o'qitilish boshlandi
 2026-02-24 16:42:37,647-model_training-INFO-KNN o'qitilish boshlandi
 2026-02-24 16:42:37,916-model_training-INFO-Gradient Boosting o'qitilish boshlandi
+2026-02-24 16:55:00,955-model_training-INFO-Training boshlandi: X=(14544, 7), y=(14544,)
+2026-02-24 16:55:00,957-model_training-INFO-OvO o'qitilish boshlandi
+2026-02-24 16:55:01,199-model_training-INFO-OvR o'qitilish boshlandi
+2026-02-24 16:55:01,504-model_training-INFO-Decision Tree o'qitilish boshlandi
+2026-02-24 16:55:01,554-model_training-INFO-Random Forest o'qitilish boshlandi
+2026-02-24 16:55:04,090-model_training-INFO-XGBoost o'qitilish boshlandi
+2026-02-24 16:55:05,476-model_training-INFO-KNN o'qitilish boshlandi
+2026-02-24 16:55:05,740-model_training-INFO-Gradient Boosting o'qitilish boshlandi
+2026-02-24 16:56:29,893-model_training-INFO-Training boshlandi: X=(14544, 7), y=(14544,)
+2026-02-24 16:56:29,895-model_training-INFO-OvO o'qitilish boshlandi
+2026-02-24 16:56:30,134-model_training-INFO-OvR o'qitilish boshlandi
+2026-02-24 16:56:30,442-model_training-INFO-Decision Tree o'qitilish boshlandi
+2026-02-24 16:56:30,488-model_training-INFO-Random Forest o'qitilish boshlandi
+2026-02-24 16:56:32,933-model_training-INFO-XGBoost o'qitilish boshlandi
+2026-02-24 16:56:34,308-model_training-INFO-KNN o'qitilish boshlandi
+2026-02-24 16:56:34,575-model_training-INFO-Gradient Boosting o'qitilish boshlandi
