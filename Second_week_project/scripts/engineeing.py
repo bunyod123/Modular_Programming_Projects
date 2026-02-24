@@ -8,7 +8,7 @@ from scripts.data_loading import df
 if df is not None:
     engineered_data = feature_engineering(df=df)
 
-    data_save(df=engineered_data)
+    data_save(df2=engineered_data)
     
 else:
     print("Dataset topilmadi")
