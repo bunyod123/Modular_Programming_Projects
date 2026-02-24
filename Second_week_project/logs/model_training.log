@@ -1,0 +1,8 @@
+2026-02-24 16:42:33,018-model_training-INFO-Training boshlandi: X=(14544, 7), y=(14544,)
+2026-02-24 16:42:33,020-model_training-INFO-OvO o'qitilish boshlandi
+2026-02-24 16:42:33,274-model_training-INFO-OvR o'qitilish boshlandi
+2026-02-24 16:42:33,587-model_training-INFO-Decision Tree o'qitilish boshlandi
+2026-02-24 16:42:33,641-model_training-INFO-Random Forest o'qitilish boshlandi
+2026-02-24 16:42:36,190-model_training-INFO-XGBoost o'qitilish boshlandi
+2026-02-24 16:42:37,647-model_training-INFO-KNN o'qitilish boshlandi
+2026-02-24 16:42:37,916-model_training-INFO-Gradient Boosting o'qitilish boshlandi
