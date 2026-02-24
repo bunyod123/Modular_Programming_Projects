@@ -33,7 +33,7 @@ print(f"Eng zo'r model: {eng_yomon_model_nomi} (accuracy: {eng_yomon_natija})")
 best_model_object = result.trained_models[eng_zor_model_nomi]
 bad_model_object = result.trained_models[eng_yomon_model_nomi]
 
-# 4. Modelni faylga saqlaymiz
+# 4. Modelni faylga saqlash
 fayl_nomi = "best_model.pkl"
 joblib.dump(best_model_object, fayl_nomi)
 
