@@ -3,13 +3,14 @@ import pandas as pd
 sys.path.append(r"C:\Users\bunyo\OneDrive\Desktop\AI_Course\ModularProgramProjects\second_week_project")
 
 # Class va data ni import qilish
-from source.preprocessing import Prerocessing
-df = pd.read_csv(r"")
+from source.prerocessing import Prerocessing
+df = pd.read_csv(r"C:\Users\bunyo\onedrive\desktop\AI_Course\ModularProgramProjects\Second_week_project\data\engineered_data\engineered_data.csv")
+
 
 # ----------------------------------------------------------------------------
 # data uchun ordinal encoding yaratish
 mapping = {
-    'Score_class': ['Good','very good','great','really great','best',]
+    'Score_class': ['safe','dangerous','very deangerous']
     }
 
 # ----------------------------------------------------------------------------
