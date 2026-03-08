@@ -1,2 +1,7 @@
-.scv
-.jpeg
+*.scv
+*.jpeg
+.myEnv
+*.json
+*.sql
+*.sqlite
+*.zip
