@@ -45,14 +45,15 @@ class Preprocessor:
                     encoder = OrdinalEncoder(
                         categories=[order],
                         handle_unknown='use_encoded_value',
-                        unknown_value=-1
+                        unknown_value=-2,
+                        dtype=int
                     )
-                    self.df[[column]] = encoder.fit_transform(self.df[[column]])
+                    self.df[[column]] = encoder.fit_transform(self.df[[column]]) + 1
                     logging.info(f"{column} features are encoded with Ordinal Encoder")
             return self            
         
         except Exception as e:
-            print(f"Erors: {e}")
+            logging.error(f"Erors: {e}")
     
     
     def label_encoder(self):
@@ -69,22 +70,26 @@ class Preprocessor:
                         logging.info(f"{col} features encoded with label encoder")                                          
 
             except Exception as e:
-                print(f"There is an error: {e}")
+                logging.info("There is an error: {e}")
         return self
     
     
     def scaler(self, target):
         num_col = self.df.select_dtypes(include=[np.number]).columns.tolist()
+        
         try:            
-            if target in num_col:
-                num_col.remove(target)
+            if isinstance(target, str):
+                target = [target]           
+                num_col = [col for col in num_col if col not in target]
+                
             if num_col:
                 for col in num_col:
                     self.df[[col]] = self.min_max_scaler.fit_transform(self.df[[col]]) # type: ignore
                     logging.info(f"{col} features scaled with min_max scaler")
+            return self
         
         except Exception as e:
-            print(f"there is error: {e}")
+            logging.info(f"there is error: {e}")
         
     
     def get_preprocessed_data(self):
@@ -108,3 +113,4 @@ class Preprocessor:
 
         except Exception as e:
             logging.info(f"Error: {e}")
+            
