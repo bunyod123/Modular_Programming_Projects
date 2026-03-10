@@ -1,4 +1,5 @@
 import sys
+import pandas as pd
 from pathlib import Path
 sys.path.append(r"C:\Users\bunyo\OneDrive\Desktop\AI_Course\ModularProgramProjects\finalProject")
 from src.log import get_logger
@@ -21,6 +22,12 @@ def feature_engineering(df):
         
         df['Added_Range_1Stop'] = df['Firth_stop_range_km'] - df['Range_km']
         logging.info(f"Range first stop column is added")
+        
+        df['Range_km_level'] = pd.cut(df['Range_km'],bins=[85, 340, 440, 720], labels=['short','middle','long'])
+        logging.info(f"Range km level column is added")
+        
+        df['Price_level'] = pd.cut(df['Price_Euro'], bins=[16, 45, 64, 380], labels=['cheap', 'affordable', 'expensive'])
+        logging.info(f"Price level column is added")
         
         return df
     except Exception as e:
