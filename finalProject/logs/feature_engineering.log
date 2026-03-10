@@ -1,0 +1,21 @@
+2026-03-10 11:49:58,427-feature_engineering-INFO-Feature engineering started
+2026-03-10 11:49:58,467-feature_engineering-INFO-Name columns is dropped
+2026-03-10 11:49:58,469-feature_engineering-INFO-Fast charge hours columns is added
+2026-03-10 11:49:58,469-feature_engineering-INFO-Errors while data saving 'NoneType' object has no attribute 'to_csv'
+2026-03-10 11:51:31,581-feature_engineering-INFO-Feature engineering started
+2026-03-10 11:51:31,582-feature_engineering-INFO-Name columns is dropped
+2026-03-10 11:51:31,583-feature_engineering-INFO-Fast charge hours columns is added
+2026-03-10 11:51:31,584-feature_engineering-INFO-Errors while data saving 'NoneType' object has no attribute 'to_csv'
+2026-03-10 11:52:52,148-feature_engineering-INFO-Feature engineering started
+2026-03-10 11:52:52,149-feature_engineering-INFO-Name columns is dropped
+2026-03-10 11:52:52,150-feature_engineering-INFO-Fast charge hours columns is added
+2026-03-10 11:52:52,151-feature_engineering-INFO-Errors while data saving 'NoneType' object has no attribute 'to_csv'
+2026-03-10 12:01:54,924-feature_engineering-INFO-Feature engineering started
+2026-03-10 12:01:54,925-feature_engineering-INFO-Name columns is dropped
+2026-03-10 12:01:54,927-feature_engineering-INFO-Fast charge hours columns is added
+2026-03-10 12:01:54,928-feature_engineering-INFO-Energy weight ratio columns is created
+2026-03-10 12:01:54,928-feature_engineering-INFO-Range first stop column is added
+2026-03-10 12:01:54,955-feature_engineering-INFO-Range km level column is added
+2026-03-10 12:01:54,957-feature_engineering-INFO-Price level column is added
+2026-03-10 12:01:54,957-feature_engineering-INFO-Feature engineering completed successfully
+2026-03-10 12:01:54,983-feature_engineering-INFO-Engineered data is saved with (1200, 16)

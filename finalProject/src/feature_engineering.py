@@ -1,4 +1,5 @@
 import sys
+import numpy as np
 import pandas as pd
 from pathlib import Path
 sys.path.append(r"C:\Users\bunyo\OneDrive\Desktop\AI_Course\ModularProgramProjects\finalProject")
@@ -14,24 +15,27 @@ def feature_engineering(df):
         df = df.drop(columns=['Name'])
         logging.info("Name columns is dropped")
         
-        df['FastCharge_time_hrs'] = df['Battery_kWh	'] / df['Fast_charger(kW)']
+        df['FastCharge_time_hrs'] = np.where(df['Fast_charger(kW)'] > 0, df['Battery_kWh'] / df['Fast_charger(kW)'], 0)
         logging.info('Fast charge hours columns is added')
         
-        df['Energy_weight_ratio'] = df['Battery_kwh'] / df['Weight_kg']
+        df['Energy_weight_ratio'] = df['Battery_kWh'] / df['Weight_kg']
         logging.info('Energy weight ratio columns is created')
         
         df['Added_Range_1Stop'] = df['Firth_stop_range_km'] - df['Range_km']
         logging.info(f"Range first stop column is added")
         
-        df['Range_km_level'] = pd.cut(df['Range_km'],bins=[85, 340, 440, 720], labels=['short','middle','long'])
+        df['Range_km_level'] = pd.cut(df['Range_km'],bins=[0, 340, 440, np.inf], labels=['short','middle','long'])
         logging.info(f"Range km level column is added")
         
-        df['Price_level'] = pd.cut(df['Price_Euro'], bins=[16, 45, 64, 380], labels=['cheap', 'affordable', 'expensive'])
+        df['Price_level'] = pd.cut(df['Price_Euro'], bins=[0, 45, 64, np.inf], labels=['cheap', 'affordable', 'expensive'])
         logging.info(f"Price level column is added")
         
+        logging.info("Feature engineering completed successfully")
         return df
+    
     except Exception as e:
-        print(f"there is an error: {e}")
+        logging.error(f"There is an eror: {e}")
+        raise e
         
         
 def data_save(df2):
@@ -48,4 +52,5 @@ def data_save(df2):
         return True
 
     except Exception as e:
-        logging.info(f"Errors while data saving {e}")
+        logging.error(f"Errors while data saving {e}")
+        return False
