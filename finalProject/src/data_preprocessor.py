@@ -10,7 +10,7 @@ from src.log import get_logger
 logging = get_logger('preprocessing')
 
 
-class Preprocessor:
+class Preprocesor:
     def __init__(self, df):
         self.min_max_scaler = MinMaxScaler()
         self.labeling = LabelEncoder()

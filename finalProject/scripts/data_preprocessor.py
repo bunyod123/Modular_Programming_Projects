@@ -3,7 +3,7 @@ import pandas as pd
 sys.path.append(r"C:\Users\bunyo\OneDrive\Desktop\AI_Course\ModularProgramProjects\FinalProject")
 
 # Class va data ni import qilish
-from src.data_preprocessing import Preprocessor
+from src.data_preprocessor import Preprocesor
 df = pd.read_csv(r"C:\Users\bunyo\onedrive\desktop\AI_Course\ModularProgramProjects\FinalProject\data\engineered_data\engineered_data.csv")
 
 
@@ -18,7 +18,7 @@ target = ['Price_level','Range_km_level']
 # ----------------------------------------------------------------------------
 
 # class orqali preprocessing qilish
-result = Preprocessor(df=df)
+result = Preprocesor(df=df)
 
 pre_data = (
     result.fill_nan()
