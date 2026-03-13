@@ -8,7 +8,7 @@ df = pd.read_csv(r"C:\Users\bunyo\onedrive\desktop\AI_Course\ModularProgramProje
 
 
 # ----------------------------------------------------------------------------
-# data uchun ordinal encoding yaratish
+# ordinal encoding yaratish
 mapping = {
     'Price_level' : ['cheap','affordable','expensive'],
     'Range_km_level' : ['short','middle','long']

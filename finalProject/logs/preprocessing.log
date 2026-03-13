@@ -111,3 +111,181 @@
 2026-03-10 13:33:33,818-preprocessing-INFO-Price_level features scaled with min_max scaler
 2026-03-10 13:33:33,818-preprocessing-INFO-Data preprocessing is finishid succesfully
 2026-03-10 13:33:33,864-preprocessing-INFO-Preprocessed data is saved with 1200 rows  16 columns
+2026-03-13 15:58:15,698-preprocessing-INFO-Data preprocessing is started
+2026-03-13 15:58:15,712-preprocessing-INFO-['Range_km', 'Efficiency', 'Weight_kg', 'Acceleration(0-100)', 'Firth_stop_range_km', 'Battery_kWh', 'Fast_charger(kW)', 'Towing_kg', 'Cargo_volume', 'Price/Range(km)', 'Price_Euro', 'FastCharge_time_hrs', 'Energy_weight_ratio', 'Added_Range_1Stop'] columns filled with mean value of them
+2026-03-13 15:58:15,714-preprocessing-INFO-['Range_km_level', 'Price_level'] columns filled with most frequent values of them
+2026-03-13 15:58:15,715-preprocessing-INFO-Price_level features are encoded with Ordinal Encoder
+2026-03-13 15:58:15,716-preprocessing-INFO-Range_km_level features are encoded with Ordinal Encoder
+2026-03-13 15:58:15,718-preprocessing-INFO-Range_km features scaled with min_max scaler
+2026-03-13 15:58:15,720-preprocessing-INFO-Efficiency features scaled with min_max scaler
+2026-03-13 15:58:15,721-preprocessing-INFO-Weight_kg features scaled with min_max scaler
+2026-03-13 15:58:15,722-preprocessing-INFO-Acceleration(0-100) features scaled with min_max scaler
+2026-03-13 15:58:15,723-preprocessing-INFO-Firth_stop_range_km features scaled with min_max scaler
+2026-03-13 15:58:15,724-preprocessing-INFO-Battery_kWh features scaled with min_max scaler
+2026-03-13 15:58:15,725-preprocessing-INFO-Fast_charger(kW) features scaled with min_max scaler
+2026-03-13 15:58:15,726-preprocessing-INFO-Towing_kg features scaled with min_max scaler
+2026-03-13 15:58:15,727-preprocessing-INFO-Cargo_volume features scaled with min_max scaler
+2026-03-13 15:58:15,728-preprocessing-INFO-Price/Range(km) features scaled with min_max scaler
+2026-03-13 15:58:15,729-preprocessing-INFO-Price_Euro features scaled with min_max scaler
+2026-03-13 15:58:15,731-preprocessing-INFO-FastCharge_time_hrs features scaled with min_max scaler
+2026-03-13 15:58:15,732-preprocessing-INFO-Energy_weight_ratio features scaled with min_max scaler
+2026-03-13 15:58:15,733-preprocessing-INFO-Added_Range_1Stop features scaled with min_max scaler
+2026-03-13 15:58:15,734-preprocessing-INFO-Range_km_level features scaled with min_max scaler
+2026-03-13 15:58:15,735-preprocessing-INFO-Price_level features scaled with min_max scaler
+2026-03-13 15:58:15,735-preprocessing-INFO-Data preprocessing is finishid succesfully
+2026-03-13 15:58:15,762-preprocessing-INFO-Preprocessed data is saved with 1200 rows  16 columns
+2026-03-13 15:59:20,453-preprocessing-INFO-Data preprocessing is started
+2026-03-13 15:59:20,456-preprocessing-INFO-['Range_km', 'Efficiency', 'Weight_kg', 'Acceleration(0-100)', 'Firth_stop_range_km', 'Battery_kWh', 'Fast_charger(kW)', 'Towing_kg', 'Cargo_volume', 'Price/Range(km)', 'Price_Euro', 'FastCharge_time_hrs', 'Energy_weight_ratio', 'Added_Range_1Stop'] columns filled with mean value of them
+2026-03-13 15:59:20,458-preprocessing-INFO-['Range_km_level', 'Price_level'] columns filled with most frequent values of them
+2026-03-13 15:59:20,459-preprocessing-INFO-Price_level features are encoded with Ordinal Encoder
+2026-03-13 15:59:20,460-preprocessing-INFO-Range_km_level features are encoded with Ordinal Encoder
+2026-03-13 15:59:20,462-preprocessing-INFO-Range_km features scaled with min_max scaler
+2026-03-13 15:59:20,463-preprocessing-INFO-Efficiency features scaled with min_max scaler
+2026-03-13 15:59:20,464-preprocessing-INFO-Weight_kg features scaled with min_max scaler
+2026-03-13 15:59:20,465-preprocessing-INFO-Acceleration(0-100) features scaled with min_max scaler
+2026-03-13 15:59:20,466-preprocessing-INFO-Firth_stop_range_km features scaled with min_max scaler
+2026-03-13 15:59:20,467-preprocessing-INFO-Battery_kWh features scaled with min_max scaler
+2026-03-13 15:59:20,468-preprocessing-INFO-Fast_charger(kW) features scaled with min_max scaler
+2026-03-13 15:59:20,469-preprocessing-INFO-Towing_kg features scaled with min_max scaler
+2026-03-13 15:59:20,470-preprocessing-INFO-Cargo_volume features scaled with min_max scaler
+2026-03-13 15:59:20,471-preprocessing-INFO-Price/Range(km) features scaled with min_max scaler
+2026-03-13 15:59:20,472-preprocessing-INFO-Price_Euro features scaled with min_max scaler
+2026-03-13 15:59:20,474-preprocessing-INFO-FastCharge_time_hrs features scaled with min_max scaler
+2026-03-13 15:59:20,475-preprocessing-INFO-Energy_weight_ratio features scaled with min_max scaler
+2026-03-13 15:59:20,476-preprocessing-INFO-Added_Range_1Stop features scaled with min_max scaler
+2026-03-13 15:59:20,478-preprocessing-INFO-Range_km_level features scaled with min_max scaler
+2026-03-13 15:59:20,479-preprocessing-INFO-Price_level features scaled with min_max scaler
+2026-03-13 15:59:20,479-preprocessing-INFO-Data preprocessing is finishid succesfully
+2026-03-13 15:59:20,506-preprocessing-INFO-Preprocessed data is saved with 1200 rows  16 columns
+2026-03-13 16:31:17,717-preprocessing-INFO-Data preprocessing is started
+2026-03-13 16:32:56,576-preprocessing-INFO-Data preprocessing is started
+2026-03-13 16:32:56,580-preprocessing-INFO-['Efficiency', 'Weight_kg', 'Acceleration(0-100)', 'Firth_stop_range_km', 'Battery_kWh', 'Fast_charger(kW)', 'Towing_kg', 'Cargo_volume', 'Price/Range(km)'] columns filled with mean value of them
+2026-03-13 16:32:56,585-preprocessing-INFO-['Name', 'Range_km_level', 'Price_level'] columns filled with most frequent values of them
+2026-03-13 16:33:14,888-preprocessing-INFO-Data preprocessing is started
+2026-03-13 16:33:14,891-preprocessing-INFO-['Efficiency', 'Weight_kg', 'Acceleration(0-100)', 'Firth_stop_range_km', 'Battery_kWh', 'Fast_charger(kW)', 'Towing_kg', 'Cargo_volume', 'Price/Range(km)'] columns filled with mean value of them
+2026-03-13 16:33:14,894-preprocessing-INFO-['Name', 'Range_km_level', 'Price_level'] columns filled with most frequent values of them
+2026-03-13 16:33:14,896-preprocessing-INFO-Price_level features are encoded with Ordinal Encoder
+2026-03-13 16:33:14,897-preprocessing-INFO-Range_km_level features are encoded with Ordinal Encoder
+2026-03-13 16:33:14,899-preprocessing-INFO-Efficiency features scaled with min_max scaler
+2026-03-13 16:33:14,902-preprocessing-INFO-Weight_kg features scaled with min_max scaler
+2026-03-13 16:33:14,905-preprocessing-INFO-Acceleration(0-100) features scaled with min_max scaler
+2026-03-13 16:33:14,907-preprocessing-INFO-Firth_stop_range_km features scaled with min_max scaler
+2026-03-13 16:33:14,909-preprocessing-INFO-Battery_kWh features scaled with min_max scaler
+2026-03-13 16:33:14,913-preprocessing-INFO-Fast_charger(kW) features scaled with min_max scaler
+2026-03-13 16:33:14,916-preprocessing-INFO-Towing_kg features scaled with min_max scaler
+2026-03-13 16:33:14,927-preprocessing-INFO-Cargo_volume features scaled with min_max scaler
+2026-03-13 16:33:14,930-preprocessing-INFO-Price/Range(km) features scaled with min_max scaler
+2026-03-13 16:33:14,932-preprocessing-INFO-Range_km_level features scaled with min_max scaler
+2026-03-13 16:33:14,936-preprocessing-INFO-Price_level features scaled with min_max scaler
+2026-03-13 16:33:14,936-preprocessing-INFO-Data preprocessing is finishid succesfully
+2026-03-13 16:35:17,201-preprocessing-INFO-Data preprocessing is started
+2026-03-13 16:35:17,205-preprocessing-INFO-['Efficiency', 'Weight_kg', 'Acceleration(0-100)', 'Firth_stop_range_km', 'Battery_kWh', 'Fast_charger(kW)', 'Towing_kg', 'Cargo_volume', 'Price/Range(km)'] columns filled with mean value of them
+2026-03-13 16:35:17,210-preprocessing-INFO-['Range_km_level', 'Price_level'] columns filled with most frequent values of them
+2026-03-13 16:35:17,212-preprocessing-INFO-Price_level features are encoded with Ordinal Encoder
+2026-03-13 16:35:17,213-preprocessing-INFO-Range_km_level features are encoded with Ordinal Encoder
+2026-03-13 16:35:17,216-preprocessing-INFO-Efficiency features scaled with min_max scaler
+2026-03-13 16:35:17,218-preprocessing-INFO-Weight_kg features scaled with min_max scaler
+2026-03-13 16:35:17,219-preprocessing-INFO-Acceleration(0-100) features scaled with min_max scaler
+2026-03-13 16:35:17,221-preprocessing-INFO-Firth_stop_range_km features scaled with min_max scaler
+2026-03-13 16:35:17,222-preprocessing-INFO-Battery_kWh features scaled with min_max scaler
+2026-03-13 16:35:17,224-preprocessing-INFO-Fast_charger(kW) features scaled with min_max scaler
+2026-03-13 16:35:17,229-preprocessing-INFO-Towing_kg features scaled with min_max scaler
+2026-03-13 16:35:17,233-preprocessing-INFO-Cargo_volume features scaled with min_max scaler
+2026-03-13 16:35:17,236-preprocessing-INFO-Price/Range(km) features scaled with min_max scaler
+2026-03-13 16:35:17,239-preprocessing-INFO-Range_km_level features scaled with min_max scaler
+2026-03-13 16:35:17,243-preprocessing-INFO-Price_level features scaled with min_max scaler
+2026-03-13 16:35:17,243-preprocessing-INFO-Data preprocessing is finishid succesfully
+2026-03-13 17:20:08,877-preprocessing-INFO-Data preprocessing is started
+2026-03-13 17:20:08,880-preprocessing-INFO-['Efficiency', 'Weight_kg', 'Acceleration(0-100)', 'Firth_stop_range_km', 'Battery_kWh', 'Fast_charger(kW)', 'Towing_kg', 'Cargo_volume', 'Price/Range(km)'] columns filled with mean value of them
+2026-03-13 17:20:08,884-preprocessing-INFO-['Range_km_level', 'Price_level'] columns filled with most frequent values of them
+2026-03-13 17:20:08,890-preprocessing-INFO-Price_level features are encoded with Ordinal Encoder
+2026-03-13 17:20:08,896-preprocessing-INFO-Range_km_level features are encoded with Ordinal Encoder
+2026-03-13 17:20:08,900-preprocessing-INFO-Efficiency features scaled with min_max scaler
+2026-03-13 17:20:08,902-preprocessing-INFO-Weight_kg features scaled with min_max scaler
+2026-03-13 17:20:08,904-preprocessing-INFO-Acceleration(0-100) features scaled with min_max scaler
+2026-03-13 17:20:08,907-preprocessing-INFO-Firth_stop_range_km features scaled with min_max scaler
+2026-03-13 17:20:08,908-preprocessing-INFO-Battery_kWh features scaled with min_max scaler
+2026-03-13 17:20:08,910-preprocessing-INFO-Fast_charger(kW) features scaled with min_max scaler
+2026-03-13 17:20:08,911-preprocessing-INFO-Towing_kg features scaled with min_max scaler
+2026-03-13 17:20:08,913-preprocessing-INFO-Cargo_volume features scaled with min_max scaler
+2026-03-13 17:20:08,914-preprocessing-INFO-Price/Range(km) features scaled with min_max scaler
+2026-03-13 17:20:08,916-preprocessing-INFO-Range_km_level features scaled with min_max scaler
+2026-03-13 17:20:08,917-preprocessing-INFO-Price_level features scaled with min_max scaler
+2026-03-13 17:20:08,917-preprocessing-INFO-Data preprocessing is finishid succesfully
+2026-03-13 17:21:12,276-preprocessing-INFO-Data preprocessing is started
+2026-03-13 17:21:12,280-preprocessing-INFO-['Efficiency', 'Weight_kg', 'Acceleration(0-100)', 'Firth_stop_range_km', 'Battery_kWh', 'Fast_charger(kW)', 'Towing_kg', 'Cargo_volume', 'Price/Range(km)'] columns filled with mean value of them
+2026-03-13 17:21:12,284-preprocessing-INFO-['Range_km_level', 'Price_level'] columns filled with most frequent values of them
+2026-03-13 17:21:12,286-preprocessing-INFO-Price_level features are encoded with Ordinal Encoder
+2026-03-13 17:21:12,289-preprocessing-INFO-Range_km_level features are encoded with Ordinal Encoder
+2026-03-13 17:21:12,292-preprocessing-INFO-Efficiency features scaled with min_max scaler
+2026-03-13 17:21:12,294-preprocessing-INFO-Weight_kg features scaled with min_max scaler
+2026-03-13 17:21:12,297-preprocessing-INFO-Acceleration(0-100) features scaled with min_max scaler
+2026-03-13 17:21:12,300-preprocessing-INFO-Firth_stop_range_km features scaled with min_max scaler
+2026-03-13 17:21:12,303-preprocessing-INFO-Battery_kWh features scaled with min_max scaler
+2026-03-13 17:21:12,316-preprocessing-INFO-Fast_charger(kW) features scaled with min_max scaler
+2026-03-13 17:21:12,321-preprocessing-INFO-Towing_kg features scaled with min_max scaler
+2026-03-13 17:21:12,328-preprocessing-INFO-Cargo_volume features scaled with min_max scaler
+2026-03-13 17:21:12,331-preprocessing-INFO-Price/Range(km) features scaled with min_max scaler
+2026-03-13 17:21:12,333-preprocessing-INFO-Range_km_level features scaled with min_max scaler
+2026-03-13 17:21:12,336-preprocessing-INFO-Price_level features scaled with min_max scaler
+2026-03-13 17:21:12,336-preprocessing-INFO-Data preprocessing is finishid succesfully
+2026-03-13 17:25:38,489-preprocessing-INFO-Data preprocessing is started
+2026-03-13 17:25:38,495-preprocessing-INFO-['Efficiency', 'Weight_kg', 'Acceleration(0-100)', 'Firth_stop_range_km', 'Battery_kWh', 'Fast_charger(kW)', 'Towing_kg', 'Cargo_volume', 'Price/Range(km)'] columns filled with mean value of them
+2026-03-13 17:25:38,499-preprocessing-INFO-['Range_km_level', 'Price_level'] columns filled with most frequent values of them
+2026-03-13 17:25:38,500-preprocessing-INFO-Price_level features are encoded with Map
+2026-03-13 17:25:38,501-preprocessing-INFO-Range_km_level features are encoded with Map
+2026-03-13 17:25:38,505-preprocessing-INFO-Efficiency features scaled with min_max scaler
+2026-03-13 17:25:38,507-preprocessing-INFO-Weight_kg features scaled with min_max scaler
+2026-03-13 17:25:38,509-preprocessing-INFO-Acceleration(0-100) features scaled with min_max scaler
+2026-03-13 17:25:38,511-preprocessing-INFO-Firth_stop_range_km features scaled with min_max scaler
+2026-03-13 17:25:38,512-preprocessing-INFO-Battery_kWh features scaled with min_max scaler
+2026-03-13 17:25:38,514-preprocessing-INFO-Fast_charger(kW) features scaled with min_max scaler
+2026-03-13 17:25:38,516-preprocessing-INFO-Towing_kg features scaled with min_max scaler
+2026-03-13 17:25:38,517-preprocessing-INFO-Cargo_volume features scaled with min_max scaler
+2026-03-13 17:25:38,519-preprocessing-INFO-Price/Range(km) features scaled with min_max scaler
+2026-03-13 17:25:38,520-preprocessing-INFO-Range_km_level features scaled with min_max scaler
+2026-03-13 17:25:38,522-preprocessing-INFO-Price_level features scaled with min_max scaler
+2026-03-13 17:25:38,522-preprocessing-INFO-Data preprocessing is finishid succesfully
+2026-03-13 17:27:18,814-preprocessing-INFO-Data preprocessing is started
+2026-03-13 17:27:18,819-preprocessing-INFO-['Efficiency', 'Weight_kg', 'Acceleration(0-100)', 'Firth_stop_range_km', 'Battery_kWh', 'Fast_charger(kW)', 'Towing_kg', 'Cargo_volume', 'Price/Range(km)'] columns filled with mean value of them
+2026-03-13 17:27:18,823-preprocessing-INFO-['Range_km_level', 'Price_level'] columns filled with most frequent values of them
+2026-03-13 17:27:18,824-preprocessing-INFO-Price_level features are encoded with Map
+2026-03-13 17:27:18,825-preprocessing-INFO-Range_km_level features are encoded with Map
+2026-03-13 17:27:18,827-preprocessing-INFO-Efficiency features scaled with min_max scaler
+2026-03-13 17:27:18,829-preprocessing-INFO-Weight_kg features scaled with min_max scaler
+2026-03-13 17:27:18,834-preprocessing-INFO-Acceleration(0-100) features scaled with min_max scaler
+2026-03-13 17:27:18,838-preprocessing-INFO-Firth_stop_range_km features scaled with min_max scaler
+2026-03-13 17:27:18,842-preprocessing-INFO-Battery_kWh features scaled with min_max scaler
+2026-03-13 17:27:18,848-preprocessing-INFO-Fast_charger(kW) features scaled with min_max scaler
+2026-03-13 17:27:18,850-preprocessing-INFO-Towing_kg features scaled with min_max scaler
+2026-03-13 17:27:18,851-preprocessing-INFO-Cargo_volume features scaled with min_max scaler
+2026-03-13 17:27:18,852-preprocessing-INFO-Price/Range(km) features scaled with min_max scaler
+2026-03-13 17:27:18,854-preprocessing-INFO-Range_km_level features scaled with min_max scaler
+2026-03-13 17:27:18,856-preprocessing-INFO-Price_level features scaled with min_max scaler
+2026-03-13 17:27:18,857-preprocessing-INFO-Data preprocessing is finishid succesfully
+2026-03-13 17:30:54,213-preprocessing-INFO-Data preprocessing is started
+2026-03-13 17:30:54,221-preprocessing-INFO-['Efficiency', 'Weight_kg', 'Acceleration(0-100)', 'Firth_stop_range_km', 'Battery_kWh', 'Fast_charger(kW)', 'Towing_kg', 'Cargo_volume', 'Price/Range(km)'] columns filled with mean value of them
+2026-03-13 17:30:54,228-preprocessing-INFO-['Range_km_level', 'Price_level'] columns filled with most frequent values of them
+2026-03-13 17:30:54,232-preprocessing-INFO-Efficiency features scaled with min_max scaler
+2026-03-13 17:30:54,236-preprocessing-INFO-Weight_kg features scaled with min_max scaler
+2026-03-13 17:30:54,239-preprocessing-INFO-Acceleration(0-100) features scaled with min_max scaler
+2026-03-13 17:30:54,245-preprocessing-INFO-Firth_stop_range_km features scaled with min_max scaler
+2026-03-13 17:30:54,248-preprocessing-INFO-Battery_kWh features scaled with min_max scaler
+2026-03-13 17:30:54,279-preprocessing-INFO-Fast_charger(kW) features scaled with min_max scaler
+2026-03-13 17:30:54,293-preprocessing-INFO-Towing_kg features scaled with min_max scaler
+2026-03-13 17:30:54,297-preprocessing-INFO-Cargo_volume features scaled with min_max scaler
+2026-03-13 17:30:54,301-preprocessing-INFO-Price/Range(km) features scaled with min_max scaler
+2026-03-13 17:30:54,301-preprocessing-INFO-Data preprocessing is finishid succesfully
+2026-03-13 17:46:41,645-preprocessing-INFO-Data preprocessing is started
+2026-03-13 17:46:41,652-preprocessing-INFO-['Efficiency', 'Weight_kg', 'Acceleration(0-100)', 'Firth_stop_range_km', 'Battery_kWh', 'Fast_charger(kW)', 'Towing_kg', 'Cargo_volume', 'Price/Range(km)'] columns filled with mean value of them
+2026-03-13 17:46:41,658-preprocessing-INFO-['Range_km_level', 'Price_level'] columns filled with most frequent values of them
+2026-03-13 17:46:41,662-preprocessing-INFO-Efficiency features scaled with min_max scaler
+2026-03-13 17:46:41,665-preprocessing-INFO-Weight_kg features scaled with min_max scaler
+2026-03-13 17:46:41,670-preprocessing-INFO-Acceleration(0-100) features scaled with min_max scaler
+2026-03-13 17:46:41,674-preprocessing-INFO-Firth_stop_range_km features scaled with min_max scaler
+2026-03-13 17:46:41,676-preprocessing-INFO-Battery_kWh features scaled with min_max scaler
+2026-03-13 17:46:41,679-preprocessing-INFO-Fast_charger(kW) features scaled with min_max scaler
+2026-03-13 17:46:41,681-preprocessing-INFO-Towing_kg features scaled with min_max scaler
+2026-03-13 17:46:41,683-preprocessing-INFO-Cargo_volume features scaled with min_max scaler
+2026-03-13 17:46:41,686-preprocessing-INFO-Price/Range(km) features scaled with min_max scaler
+2026-03-13 17:46:41,686-preprocessing-INFO-Data preprocessing is finishid succesfully
