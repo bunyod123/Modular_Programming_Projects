@@ -289,3 +289,16 @@
 2026-03-13 17:46:41,683-preprocessing-INFO-Cargo_volume features scaled with min_max scaler
 2026-03-13 17:46:41,686-preprocessing-INFO-Price/Range(km) features scaled with min_max scaler
 2026-03-13 17:46:41,686-preprocessing-INFO-Data preprocessing is finishid succesfully
+2026-03-13 17:47:59,248-preprocessing-INFO-Data preprocessing is started
+2026-03-13 17:47:59,257-preprocessing-INFO-['Efficiency', 'Weight_kg', 'Acceleration(0-100)', 'Firth_stop_range_km', 'Battery_kWh', 'Fast_charger(kW)', 'Towing_kg', 'Cargo_volume', 'Price/Range(km)'] columns filled with mean value of them
+2026-03-13 17:47:59,262-preprocessing-INFO-['Range_km_level', 'Price_level'] columns filled with most frequent values of them
+2026-03-13 17:47:59,267-preprocessing-INFO-Efficiency features scaled with min_max scaler
+2026-03-13 17:47:59,273-preprocessing-INFO-Weight_kg features scaled with min_max scaler
+2026-03-13 17:47:59,276-preprocessing-INFO-Acceleration(0-100) features scaled with min_max scaler
+2026-03-13 17:47:59,280-preprocessing-INFO-Firth_stop_range_km features scaled with min_max scaler
+2026-03-13 17:47:59,284-preprocessing-INFO-Battery_kWh features scaled with min_max scaler
+2026-03-13 17:47:59,291-preprocessing-INFO-Fast_charger(kW) features scaled with min_max scaler
+2026-03-13 17:47:59,297-preprocessing-INFO-Towing_kg features scaled with min_max scaler
+2026-03-13 17:47:59,303-preprocessing-INFO-Cargo_volume features scaled with min_max scaler
+2026-03-13 17:47:59,308-preprocessing-INFO-Price/Range(km) features scaled with min_max scaler
+2026-03-13 17:47:59,308-preprocessing-INFO-Data preprocessing is finishid succesfully
