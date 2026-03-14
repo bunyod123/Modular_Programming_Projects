@@ -1,0 +1,23 @@
+2026-03-15 02:33:21,987-model_training-INFO-Training boshlandi: X=(1311, 12), y=(1311, 2)
+2026-03-15 02:33:21,990-model_training-INFO-Decision Tree o'qitilish boshlandi
+2026-03-15 02:33:22,249-model_training-ERROR-Xatolik yuz berdi: multiclass-multioutput is not supported
+2026-03-15 02:37:14,180-model_training-INFO-Training boshlandi: X=(1311, 12), y=(1311, 2)
+2026-03-15 02:37:14,182-model_training-INFO-Decision Tree o'qitilish boshlandi
+2026-03-15 02:37:14,308-model_training-ERROR-Xatolik yuz berdi: multiclass-multioutput is not supported
+2026-03-15 02:44:22,680-model_training-INFO-Training boshlandi: X=(1311, 12), y=(1311, 2)
+2026-03-15 02:44:22,682-model_training-INFO-Decision Tree o'qitilish boshlandi
+2026-03-15 02:44:22,747-model_training-INFO-Decision Tree muvaffaqiyatli o'qitildi. Accuracy: 0.9004
+2026-03-15 02:44:22,747-model_training-INFO-Random Forest o'qitilish boshlandi
+2026-03-15 02:44:24,424-model_training-INFO-Random Forest muvaffaqiyatli o'qitildi. Accuracy: 0.9280
+2026-03-15 02:44:24,424-model_training-INFO-Extra Trees o'qitilish boshlandi
+2026-03-15 02:44:25,653-model_training-INFO-Extra Trees muvaffaqiyatli o'qitildi. Accuracy: 0.9237
+2026-03-15 02:44:25,653-model_training-INFO-KNN o'qitilish boshlandi
+2026-03-15 02:44:25,756-model_training-INFO-KNN muvaffaqiyatli o'qitildi. Accuracy: 0.8792
+2026-03-15 02:44:25,756-model_training-INFO-Logistic Regression o'qitilish boshlandi
+2026-03-15 02:44:26,169-model_training-INFO-Logistic Regression muvaffaqiyatli o'qitildi. Accuracy: 0.8475
+2026-03-15 02:44:26,170-model_training-INFO-SVM (SVC) o'qitilish boshlandi
+2026-03-15 02:44:26,503-model_training-INFO-SVM (SVC) muvaffaqiyatli o'qitildi. Accuracy: 0.8898
+2026-03-15 02:44:26,503-model_training-INFO-Gradient Boosting o'qitilish boshlandi
+2026-03-15 02:44:36,773-model_training-INFO-Gradient Boosting muvaffaqiyatli o'qitildi. Accuracy: 0.9237
+2026-03-15 02:44:36,773-model_training-INFO-XGBoost o'qitilish boshlandi
+2026-03-15 02:44:39,397-model_training-INFO-XGBoost muvaffaqiyatli o'qitildi. Accuracy: 0.9216

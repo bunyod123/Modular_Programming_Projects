@@ -1,0 +1,9 @@
+Model,Price Accuracy (%),Range Accuracy (%),Average
+XGBoost,88.16,96.05,92.11
+Gradient Boosting,87.28,94.74,91.01
+Extra Trees,86.84,93.42,90.13
+Random Forest,86.4,93.42,89.91
+SVM (SVC),84.65,90.79,87.72
+Decision Tree,83.33,92.11,87.72
+KNN,82.46,89.47,85.96
+Logistic Regression,79.39,86.4,82.89
