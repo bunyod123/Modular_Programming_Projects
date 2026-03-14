@@ -1,45 +1,31 @@
-# ⚡ Elektromobillar Narxini Bashorat Qilish (EV Price Prediction)
+# 🚗 EV Price and Range Predictor (Multi-Output Classification)
 
-![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
-![Pandas](https://img.shields.io/badge/Data_Processing-Pandas-green.svg)
-![Scikit-Learn](https://img.shields.io/badge/Machine_Learning-Scikit_Learn-orange.svg)
+Ushbu loyiha elektromobillarning (EV) texnik xususiyatlariga asoslanib, ularning **narx toifasi (`Price_level`)** va **yurish masofasi toifasini (`Range_km_level`)** bir vaqtning o'zida bashorat qiluvchi mashinali o'rganish (Machine Learning) modelini o'z ichiga oladi. 
 
-Bu loyiha bozordagi turli zamonaviy elektromobillarning texnik ko'rsatkichlariga (batareya sig'imi, tezlanish, energiya sarfi va h.k.) asoslanib, ularning **bozor narxini** bashorat qilish uchun mo'ljallangan Machine Learning modelini o'z ichiga oladi.
+Loyiha ma'lumotlarni yig'ish, modelni ko'p maqsadli (multi-output) o'qitish, giperparametrlarni aqlli optimizatsiya qilish va natijalarni interpretatsiya qilish qadamlaridan iborat.
 
-## 📊 Ma'lumotlar To'plami (Dataset)
+## 📊 Ma'lumotlar bazasi (Dataset)
+Ma'lumotlar dastlab maxsus web scraping skriptlari (Playwright kutubxonasi yordamida) orqali elektromobillar haqidagi ochiq ma'lumotlar bazalaridan (masalan, ev-database) yig'ilgan. 
 
-Modelni o'qitish uchun ishlatilgan `car_data.csv` fayli o'zida quyidagi muhim xususiyatlarni (features) jamlagan:
+Asosiy fayl: `sampled_data.csv`
+Model uchun ishlatilgan asosiy xususiyatlar (Features):
+* `Efficiency` (Samaradorlik)
+* `Battery_kWh` (Batareya sig'imi)
+* `Acceleration(0-100)` (Tezlanish)
+* `Weight_kg` (Og'irlik)
+* `Fast_charger(kW)` (Tez quvvatlash imkoniyati)
+* va boshqa muhim texnik parametrlar...
 
-* **Name:** Avtomobil rusumi (masalan, *Tesla Model Y, BMW iX3*)
-* **Range_km:** Bir to'la zaryad bilan yurish masofasi (km)
-* **Efficiency:** Energiya samaradorligi (Wh/km)
-* **Weight:** Avtomobil og'irligi (kg)
-* **Acceleration(0-100):** 0 dan 100 km/soat gacha tezlanish vaqti (sekund)
-* **Battery_kWh:** Batareya sig'imi (kVt/soat)
-* **Fast_charger(kW):** Maksimal tez zaryadlash quvvati
-* **Towing_kg / Cargo_volume:** Tortish qobiliyati va yukxona hajmi
-* **Price:** Avtomobil narxi (Target variable - bashorat qilinadigan o'zgaruvchi)
+**Maqsadli o'zgaruvchilar (Targets):**
+1. `Range_km_level` - Bir marta quvvatlash orqali bosib o'tiladigan masofa toifasi (Masalan: 0, 1, 2)
+2. `Price_level` - Elektromobilning narx toifasi (Masalan: 0, 1, 2)
 
-## 🛠️ Ma'lumotlarni Qayta Ishlash (Feature Engineering)
+## 🛠️ Loyiha arxitekturasi va texnologiyalar
 
-Modelni qurishdan oldin ma'lumotlar ustida quyidagi tozalash ishlari amalga oshirildi:
-1. `Price` ustunidagi Yevro belgisi (`€`) va vergullar (`,`) olib tashlanib, qatorlar sonli (numeric) turga o'tkazildi.
-2. Yetishmayotgan qiymatlar (Missing values) to'ldirildi.
-3. Model uchun muhim bo'lmagan matnli ustunlar kodlandi (Encoding).
+Loyiha quyidagi zamonaviy Python kutubxonalari asosida qurilgan:
+* **Pandas & NumPy:** Ma'lumotlarni tozalash va qayta ishlash.
+* **Scikit-Learn:** Modelni qurish (`MultiOutputClassifier`), ma'lumotlarni qismlarga ajratish va baholash.
+* **XGBoost:** Asosiy tasniflash (classification) algoritmi sifatida.
+* **Optuna:** Giperparametrlarni Bayes optimizatsiyasi orqali tez va samarali tuning qilish.
+* **SHAP (SHapley Additive exPlanations):** Model qarorlarini tushuntirib berish va vizualizatsiya qilish.
 
-## 🧠 Model Arxitekturasi
-
-Loyihada **Regressiya** algoritmlaridan foydalanildi. Agar loyiha ham narxni, ham zaryad masofasini bashorat qilsa, **Multi-Output Regression** yondashuvi qo'llaniladi.
-
-* **Algoritm:** [Masalan: Random Forest Regressor / XGBoost]
-* **Metrikalar:** * Mean Absolute Error (MAE): `Kiritilishi kerak`
-  * R-squared ($R^2$): `Kiritilishi kerak`
-
-## 🚀 O'rnatish va Ishga Tushirish
-
-Loyihani o'z kompyuteringizda ishga tushirish uchun quyidagi qadamlarni bajaring:
-
-1. Repozitoriyni yuklab oling:
-```bash
-git clone [https://github.com/username/ev-price-prediction.git](https://github.com/username/ev-price-prediction.git)
-cd ev-price-prediction
