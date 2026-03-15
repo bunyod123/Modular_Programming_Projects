@@ -45,7 +45,7 @@ class ModelTraining:
             "Logistic Regression": MultiOutputClassifier(LogisticRegression(max_iter=1000, random_state=42)),
             "SVM (SVC)": MultiOutputClassifier(SVC(random_state=42)),
             "Gradient Boosting": MultiOutputClassifier(GradientBoostingClassifier(random_state=42)),
-            "XGBoost": MultiOutputClassifier(XGBClassifier(random_state=42, eval_metric='logloss'))
+            "XGBoost": MultiOutputClassifier(XGBClassifier(random_state=42, eval_metric='logloss',n_estimators=284,max_depth=7,learning_rate=0.04,subsample=0.65))
         }
       
         logging.info(f"Training boshlandi: X={X.shape}, y={y.shape}")
