@@ -38,38 +38,22 @@ class Preprocesor:
             print(f"There is problem with NaN value filling {e}")
         
         
-    # def ordinal_encoding(self, mapping):
-    #     try:
-    #         for column, order in mapping.items():
-    #             if column in self.df.columns:
-    #                 encoder = OrdinalEncoder(
-    #                     categories=[order],
-    #                     handle_unknown='use_encoded_value',
-    #                     unknown_value=-2,
-    #                     dtype=int
-    #                 )
-    #                 self.df[[column]] = encoder.fit_transform(self.df[[column]]) + 1
-    #                 logging.info(f"{column} features are encoded with Ordinal Encoder")
-    #         return self            
-        
-    #     except Exception as e:
-    #         logging.error(f"Erors: {e}")
-    
     def ordinal_encoding(self, mapping):
         try:
             for column, order in mapping.items():
                 if column in self.df.columns:
-
-                    map_dict = {val: i + 1 for i, val in enumerate(order)}
-                    
-                    self.df[column] = self.df[column].map(map_dict).fillna(-1).astype(int)
-                    
-                    logging.info(f"{column} features are encoded with Map")
+                    encoder = OrdinalEncoder(
+                        categories=[order],
+                        handle_unknown='use_encoded_value',
+                        unknown_value=-2,
+                        dtype=int
+                    )
+                    self.df[[column]] = encoder.fit_transform(self.df[[column]]) + 1
+                    logging.info(f"{column} features are encoded with Ordinal Encoder")
             return self            
         
         except Exception as e:
-            logging.error(f"Errors: {e}")
-    
+            logging.error(f"Erors: {e}")
     
     def label_encoder(self):
         if self.cat_cols:
