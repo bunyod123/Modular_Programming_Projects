@@ -23,7 +23,7 @@ def feature_engineering(df):
         
         df['Added_Range_1Stop'] = df['Firth_stop_range_km'] - df['Range_km']
         logging.info(f"Range first stop column is added")
-        
+         
         df['Range_km_level'] = pd.cut(df['Range_km'],bins=[0, 340, 440, np.inf], labels=['short','middle','long'])
         logging.info(f"Range km level column is added")
         
