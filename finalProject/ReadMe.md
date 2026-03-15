@@ -29,3 +29,4 @@ Loyiha quyidagi zamonaviy Python kutubxonalari asosida qurilgan:
 * **Optuna:** Giperparametrlarni Bayes optimizatsiyasi orqali tez va samarali tuning qilish.
 * **SHAP (SHapley Additive exPlanations):** Model qarorlarini tushuntirib berish va vizualizatsiya qilish.
 
+* `plotly express linki` https://0ec73db1-58d3-4a8b-a266-e871cc327dbd.plotly.app
